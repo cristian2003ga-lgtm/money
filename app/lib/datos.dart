@@ -169,8 +169,6 @@ class MensajeChat {
 class ChatIA {
   static Future<String> preguntar(
       Ajustes a, List<MensajeChat> conversacion, String contexto) async {
-    final uri = Uri.parse(
-        'https://generativelanguage.googleapis.com/v1beta/models/${a.modelo.trim()}:generateContent');
     final instrucciones = '''
 Eres el asistente de la app "Money IA". Ayudas a un inversionista principiante
 en Colombia que compra acciones con montos pequeños en la app trii.
@@ -200,40 +198,62 @@ $contexto
           .toList(),
       'generationConfig': {'temperature': 0.4},
     };
-    // Reintenta hasta 3 veces si el celular corta la conexión (cambio de red,
-    // app en segundo plano, conexión vieja reutilizada, etc.).
+    // Si Google está saturado (503) o se corta la conexión, reintenta y,
+    // si sigue fallando, prueba con un modelo más liviano.
+    final modelos = <String>{a.modelo.trim(), 'gemini-flash-lite-latest'}.toList();
     http.Response? r;
     Object? ultimoError;
-    for (var intento = 0; intento < 3 && r == null; intento++) {
-      final cliente = http.Client();
-      try {
-        r = await cliente
-            .post(uri,
-                headers: {
-                  'Content-Type': 'application/json',
-                  'Connection': 'close',
-                  'x-goog-api-key': a.claveGemini.trim(),
-                },
-                body: jsonEncode(cuerpo))
-            .timeout(const Duration(seconds: 90));
-      } catch (e) {
-        ultimoError = e;
+    int? ultimoCodigo;
+    for (final modelo in modelos) {
+      final uri = Uri.parse(
+          'https://generativelanguage.googleapis.com/v1beta/models/$modelo:generateContent');
+      for (var intento = 0; intento < 3; intento++) {
+        final cliente = http.Client();
+        try {
+          final resp = await cliente
+              .post(uri,
+                  headers: {
+                    'Content-Type': 'application/json',
+                    'Connection': 'close',
+                    'x-goog-api-key': a.claveGemini.trim(),
+                  },
+                  body: jsonEncode(cuerpo))
+              .timeout(const Duration(seconds: 90));
+          ultimoCodigo = resp.statusCode;
+          if (resp.statusCode == 200) {
+            r = resp;
+            break;
+          }
+          if (resp.statusCode == 400 || resp.statusCode == 403) {
+            throw Exception('Gemini rechazó la clave (error ${resp.statusCode}). '
+                'Revisa la clave en Ajustes.');
+          }
+          if (resp.statusCode == 404) break; // modelo no existe: probar el siguiente
+        } on Exception catch (e) {
+          if (e.toString().contains('rechazó la clave')) rethrow;
+          ultimoError = e;
+        } finally {
+          cliente.close();
+        }
         await Future.delayed(Duration(seconds: 2 * (intento + 1)));
-      } finally {
-        cliente.close();
       }
+      if (r != null) break;
     }
     if (r == null) {
+      if (ultimoCodigo == 503 || ultimoCodigo == 500) {
+        throw Exception('Los servidores de Google están saturados en este momento. '
+            'Intenta de nuevo en uno o dos minutos.');
+      }
+      if (ultimoCodigo == 429) {
+        throw Exception('Llegaste al límite gratis de Gemini por ahora. Espera un minuto.');
+      }
+      if (ultimoCodigo == 404) {
+        throw Exception('El modelo de Gemini no existe. Revisa el nombre en Ajustes.');
+      }
       throw Exception('No se pudo conectar con la IA. Revisa tu internet y vuelve a '
-          'preguntar. (Detalle: $ultimoError)');
+          'preguntar. (Detalle: ${ultimoError ?? 'código $ultimoCodigo'})');
     }
     final texto = utf8.decode(r.bodyBytes);
-    if (r.statusCode == 429) {
-      throw Exception('Llegaste al límite gratis de Gemini por ahora. Espera un minuto.');
-    }
-    if (r.statusCode != 200) {
-      throw Exception('Error ${r.statusCode} de Gemini. Revisa tu clave y el modelo en Ajustes.');
-    }
     final j = jsonDecode(texto) as Map<String, dynamic>;
     final candidatos = j['candidates'];
     if (candidatos is! List || candidatos.isEmpty) {

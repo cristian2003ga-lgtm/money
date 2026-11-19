@@ -200,14 +200,33 @@ $contexto
           .toList(),
       'generationConfig': {'temperature': 0.4},
     };
-    final r = await http
-        .post(uri,
-            headers: {
-              'Content-Type': 'application/json',
-              'x-goog-api-key': a.claveGemini.trim(),
-            },
-            body: jsonEncode(cuerpo))
-        .timeout(const Duration(seconds: 60));
+    // Reintenta hasta 3 veces si el celular corta la conexión (cambio de red,
+    // app en segundo plano, conexión vieja reutilizada, etc.).
+    http.Response? r;
+    Object? ultimoError;
+    for (var intento = 0; intento < 3 && r == null; intento++) {
+      final cliente = http.Client();
+      try {
+        r = await cliente
+            .post(uri,
+                headers: {
+                  'Content-Type': 'application/json',
+                  'Connection': 'close',
+                  'x-goog-api-key': a.claveGemini.trim(),
+                },
+                body: jsonEncode(cuerpo))
+            .timeout(const Duration(seconds: 90));
+      } catch (e) {
+        ultimoError = e;
+        await Future.delayed(Duration(seconds: 2 * (intento + 1)));
+      } finally {
+        cliente.close();
+      }
+    }
+    if (r == null) {
+      throw Exception('No se pudo conectar con la IA. Revisa tu internet y vuelve a '
+          'preguntar. (Detalle: $ultimoError)');
+    }
     final texto = utf8.decode(r.bodyBytes);
     if (r.statusCode == 429) {
       throw Exception('Llegaste al límite gratis de Gemini por ahora. Espera un minuto.');

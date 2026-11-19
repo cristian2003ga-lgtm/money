@@ -228,6 +228,11 @@ class Gemini:
                         time.sleep(15 * (intento + 1))
                         continue
                     break  # 400/404: probar el siguiente modelo
+                except (TimeoutError, urllib.error.URLError, ConnectionError) as e:
+                    # Google tardó demasiado o cortó la conexión: reintentar
+                    ultimo_error = f"{modelo}: sin respuesta ({e})"
+                    log(f"Gemini no respondió a tiempo, reintentando… ({e})")
+                    time.sleep(10)
                 except (KeyError, IndexError, json.JSONDecodeError) as e:
                     ultimo_error = f"{modelo}: respuesta inválida ({e})"
                     log(ultimo_error)

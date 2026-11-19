@@ -1,0 +1,20 @@
+{
+  "acciones": [
+    {"simbolo": "EC",    "nombre": "Ecopetrol (ADR)",   "nota": "Petrolera colombiana; sensible al precio del petróleo y a la política en Colombia"},
+    {"simbolo": "CIB",   "nombre": "Grupo Cibest / Bancolombia (ADR)", "nota": "Banco colombiano; sensible a tasas del Banco de la República y al peso"},
+    {"simbolo": "AAPL",  "nombre": "Apple",      "nota": ""},
+    {"simbolo": "MSFT",  "nombre": "Microsoft",  "nota": ""},
+    {"simbolo": "NVDA",  "nombre": "Nvidia",     "nota": ""},
+    {"simbolo": "AMZN",  "nombre": "Amazon",     "nota": ""},
+    {"simbolo": "GOOGL", "nombre": "Alphabet (Google)", "nota": ""},
+    {"simbolo": "META",  "nombre": "Meta",       "nota": ""},
+    {"simbolo": "TSLA",  "nombre": "Tesla",      "nota": "Muy volátil"},
+    {"simbolo": "SPY",   "nombre": "ETF S&P 500", "nota": "Referencia del mercado completo"}
+  ],
+  "dias_noticias": 2,
+  "noticias_por_accion": 6,
+  "noticias_generales": 12,
+  "confianza_minima_notificacion": 70,
+  "horas_para_evaluar_acierto": 24,
+  "modelo_gemini": "gemini-flash-latest"
+}

@@ -1,0 +1,5 @@
+# Solo para correr el análisis en tu PC. Copia este archivo y nómbralo ".env"
+# (en esta misma carpeta) y pon tus claves. NUNCA subas el archivo .env a GitHub.
+FINNHUB_KEY=pega_aqui_tu_clave_de_finnhub
+GEMINI_API_KEY=pega_aqui_tu_clave_de_gemini
+NTFY_TOPIC=

@@ -1,0 +1,228 @@
+{
+  "actualizado": "2026-11-19T22:38:05Z",
+  "demo": true,
+  "resumen_mercado": "MODO DEMO: datos de ejemplo, no reales.",
+  "aviso": "Señales generadas por IA a partir de noticias y precios. No son asesoría financiera ni garantizan ganancias. Invierte solo lo que puedas perder.",
+  "acciones": [
+    {
+      "simbolo": "EC",
+      "nombre": "Ecopetrol (ADR)",
+      "precio": 184.46,
+      "cambio_pct": -0.9,
+      "senal": "COMPRAR",
+      "confianza": 78,
+      "razones": [
+        "Ejemplo de razón generada en modo demo"
+      ],
+      "riesgos": [
+        "Esto no es un análisis real"
+      ],
+      "noticias": [
+        {
+          "titulo": "Noticia de ejemplo sobre Ecopetrol (ADR)",
+          "fuente": "Demo",
+          "url": "https://finnhub.io",
+          "fecha": "2026-11-19T22:38:05Z"
+        }
+      ]
+    },
+    {
+      "simbolo": "AAPL",
+      "nombre": "Apple",
+      "precio": 265.7,
+      "cambio_pct": 1.2,
+      "senal": "COMPRAR",
+      "confianza": 62,
+      "razones": [
+        "Ejemplo de razón generada en modo demo"
+      ],
+      "riesgos": [
+        "Esto no es un análisis real"
+      ],
+      "noticias": [
+        {
+          "titulo": "Noticia de ejemplo sobre Apple",
+          "fuente": "Demo",
+          "url": "https://finnhub.io",
+          "fecha": "2026-11-19T22:38:05Z"
+        }
+      ]
+    },
+    {
+      "simbolo": "AMZN",
+      "nombre": "Amazon",
+      "precio": 12.58,
+      "cambio_pct": 0.32,
+      "senal": "COMPRAR",
+      "confianza": 53,
+      "razones": [
+        "Ejemplo de razón generada en modo demo"
+      ],
+      "riesgos": [
+        "Esto no es un análisis real"
+      ],
+      "noticias": [
+        {
+          "titulo": "Noticia de ejemplo sobre Amazon",
+          "fuente": "Demo",
+          "url": "https://finnhub.io",
+          "fecha": "2026-11-19T22:38:05Z"
+        }
+      ]
+    },
+    {
+      "simbolo": "TSLA",
+      "nombre": "Tesla",
+      "precio": 438.88,
+      "cambio_pct": -2.86,
+      "senal": "COMPRAR",
+      "confianza": 48,
+      "razones": [
+        "Ejemplo de razón generada en modo demo"
+      ],
+      "riesgos": [
+        "Esto no es un análisis real"
+      ],
+      "noticias": [
+        {
+          "titulo": "Noticia de ejemplo sobre Tesla",
+          "fuente": "Demo",
+          "url": "https://finnhub.io",
+          "fecha": "2026-11-19T22:38:05Z"
+        }
+      ]
+    },
+    {
+      "simbolo": "META",
+      "nombre": "Meta",
+      "precio": 465.18,
+      "cambio_pct": -1.6,
+      "senal": "VENDER",
+      "confianza": 80,
+      "razones": [
+        "Ejemplo de razón generada en modo demo"
+      ],
+      "riesgos": [
+        "Esto no es un análisis real"
+      ],
+      "noticias": [
+        {
+          "titulo": "Noticia de ejemplo sobre Meta",
+          "fuente": "Demo",
+          "url": "https://finnhub.io",
+          "fecha": "2026-11-19T22:38:05Z"
+        }
+      ]
+    },
+    {
+      "simbolo": "CIB",
+      "nombre": "Grupo Cibest / Bancolombia (ADR)",
+      "precio": 107.58,
+      "cambio_pct": 2.93,
+      "senal": "VENDER",
+      "confianza": 62,
+      "razones": [
+        "Ejemplo de razón generada en modo demo"
+      ],
+      "riesgos": [
+        "Esto no es un análisis real"
+      ],
+      "noticias": [
+        {
+          "titulo": "Noticia de ejemplo sobre Grupo Cibest / Bancolombia (ADR)",
+          "fuente": "Demo",
+          "url": "https://finnhub.io",
+          "fecha": "2026-11-19T22:38:05Z"
+        }
+      ]
+    },
+    {
+      "simbolo": "GOOGL",
+      "nombre": "Alphabet (Google)",
+      "precio": 222.25,
+      "cambio_pct": -1.31,
+      "senal": "VENDER",
+      "confianza": 58,
+      "razones": [
+        "Ejemplo de razón generada en modo demo"
+      ],
+      "riesgos": [
+        "Esto no es un análisis real"
+      ],
+      "noticias": [
+        {
+          "titulo": "Noticia de ejemplo sobre Alphabet (Google)",
+          "fuente": "Demo",
+          "url": "https://finnhub.io",
+          "fecha": "2026-11-19T22:38:05Z"
+        }
+      ]
+    },
+    {
+      "simbolo": "NVDA",
+      "nombre": "Nvidia",
+      "precio": 23.36,
+      "cambio_pct": -0.92,
+      "senal": "MANTENER",
+      "confianza": 60,
+      "razones": [
+        "Ejemplo de razón generada en modo demo"
+      ],
+      "riesgos": [
+        "Esto no es un análisis real"
+      ],
+      "noticias": [
+        {
+          "titulo": "Noticia de ejemplo sobre Nvidia",
+          "fuente": "Demo",
+          "url": "https://finnhub.io",
+          "fecha": "2026-11-19T22:38:05Z"
+        }
+      ]
+    },
+    {
+      "simbolo": "SPY",
+      "nombre": "ETF S&P 500",
+      "precio": 27.58,
+      "cambio_pct": -1.78,
+      "senal": "MANTENER",
+      "confianza": 50,
+      "razones": [
+        "Ejemplo de razón generada en modo demo"
+      ],
+      "riesgos": [
+        "Esto no es un análisis real"
+      ],
+      "noticias": [
+        {
+          "titulo": "Noticia de ejemplo sobre ETF S&P 500",
+          "fuente": "Demo",
+          "url": "https://finnhub.io",
+          "fecha": "2026-11-19T22:38:05Z"
+        }
+      ]
+    },
+    {
+      "simbolo": "MSFT",
+      "nombre": "Microsoft",
+      "precio": 192.92,
+      "cambio_pct": 0.99,
+      "senal": "MANTENER",
+      "confianza": 49,
+      "razones": [
+        "Ejemplo de razón generada en modo demo"
+      ],
+      "riesgos": [
+        "Esto no es un análisis real"
+      ],
+      "noticias": [
+        {
+          "titulo": "Noticia de ejemplo sobre Microsoft",
+          "fuente": "Demo",
+          "url": "https://finnhub.io",
+          "fecha": "2026-11-19T22:38:05Z"
+        }
+      ]
+    }
+  ]
+}

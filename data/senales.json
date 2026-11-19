@@ -1,7 +1,7 @@
 {
-  "actualizado": "2026-11-19T23:01:09Z",
+  "actualizado": "2026-11-19T23:23:33Z",
   "demo": false,
-  "resumen_mercado": "El mercado global vive una racha negativa, con el S&P 500 acumulando seis días consecutivos a la baja arrastrado por caídas en el sector tecnológico. A pesar del esperado debut bursátil de Anthropic, persisten tensiones geopolíticas con Irán y Rusia que generan cautela entre los inversionistas. El ambiente general para el corto plazo es de incertidumbre y alta aversión al riesgo.",
+  "resumen_mercado": "El mercado bursátil muestra un ánimo general bajista con caídas consecutivas en el S&P 500, presionado por tensiones geopolíticas globales y un panorama de cautela tecnológica tras el debut de Anthropic.",
   "aviso": "Señales generadas por IA a partir de noticias y precios. No son asesoría financiera ni garantizan ganancias. Invierte solo lo que puedas perder.",
   "acciones": [
     {
@@ -12,26 +12,58 @@
       "senal": "MANTENER",
       "confianza": 60,
       "razones": [
-        "El índice completó seis sesiones consecutivas en rojo, mostrando debilidad técnica a corto plazo.",
-        "Comprar en medio de una caída sin señales de suelo es riesgoso, pero vender en mínimos de la semana tampoco es prudente."
+        "El S&P 500 acumula varios días a la baja, reflejando un mercado cauteloso y bajista.",
+        "Ante la incertidumbre global y las caídas consecutivas, lo prudente para un principiante es esperar la estabilización."
       ],
       "riesgos": [
-        "Continuidad de la racha bajista por preocupaciones geopolíticas y tasas de interés globales."
+        "Continuación de la corrección en los mercados estadounidenses por factores macroeconómicos."
       ],
       "noticias": [
+        {
+          "titulo": "The Shenzhen Summit: A New Yalta Or A Nothingburger? The Dates We Need To Watch",
+          "fuente": "SeekingAlpha",
+          "url": "https://finnhub.io/api/news?id=97683b37b35ebf63231878bcf424f10ae691baa42dc3a0f49294b8a77124e1df",
+          "fecha": "2026-11-19T17:15:09Z"
+        },
         {
           "titulo": "Do Nvidia, Alphabet, Meta Drops Hurt Your Index Fund?",
           "fuente": "Yahoo",
           "url": "https://finnhub.io/api/news?id=33adccad1673643dcbd560c1e4d5717d5e7c5714975257aca216975922003847",
           "fecha": "2026-11-19T17:10:08Z"
-        },
-        {
-          "titulo": "Anthropic IPO And SpaceX Made Me Rethink The Small-Cap Premium",
-          "fuente": "SeekingAlpha",
-          "url": "https://finnhub.io/api/news?id=bc25b8d0c6c7138c51138771ab97a86e4791bd617a950e7d2912e321dfdc8ebb",
-          "fecha": "2026-11-19T16:55:38Z"
         }
       ]
+    },
+    {
+      "simbolo": "EC",
+      "nombre": "Ecopetrol (ADR)",
+      "precio": 13.37,
+      "cambio_pct": -4.98,
+      "senal": "MANTENER",
+      "confianza": 50,
+      "razones": [
+        "El precio cayó fuertemente hoy siguiendo la tendencia negativa del petróleo y el mercado.",
+        "No hay noticias corporativas recientes específicas para evaluar un cambio de rumbo inmediato."
+      ],
+      "riesgos": [
+        "Mayor caída en los precios internacionales del crudo y factores políticos locales en Colombia."
+      ],
+      "noticias": []
+    },
+    {
+      "simbolo": "CIB",
+      "nombre": "Grupo Cibest / Bancolombia (ADR)",
+      "precio": 83.2,
+      "cambio_pct": -2.47,
+      "senal": "MANTENER",
+      "confianza": 50,
+      "razones": [
+        "La acción bajó hoy en línea con el mal desempeño general de los mercados.",
+        "No se reportan noticias nuevas que justifiquen una compra o venta apresurada."
+      ],
+      "riesgos": [
+        "Volatilidad en la tasa de cambio del peso colombiano y decisiones de tasas de interés."
+      ],
+      "noticias": []
     },
     {
       "simbolo": "AAPL",
@@ -39,13 +71,13 @@
       "precio": 349.21,
       "cambio_pct": -0.92,
       "senal": "MANTENER",
-      "confianza": 55,
+      "confianza": 50,
       "razones": [
-        "La caída de hoy fue moderada (-0.92%) en comparación con el resto del sector tecnológico.",
-        "Las presiones legales en Reino Unido y Francia añaden ruido, pero no justifican una venta apresurada."
+        "El precio bajó levemente hoy reflejando la caída generalizada del S&P 500.",
+        "Las noticias sobre regulaciones en Europa y UK generan incertidumbre pero el precio ya muestra la caída del día."
       ],
       "riesgos": [
-        "Investigaciones por obsolescencia programada y exigencias gubernamentales sobre seguridad de datos."
+        "Presiones regulatorias y multas en mercados internacionales."
       ],
       "noticias": [
         {
@@ -63,41 +95,6 @@
       ]
     },
     {
-      "simbolo": "TSLA",
-      "nombre": "Tesla",
-      "precio": 374.41,
-      "cambio_pct": -2.43,
-      "senal": "MANTENER",
-      "confianza": 55,
-      "razones": [
-        "La expansión de Cybercab a Dallas es una noticia operativa positiva pero aún con dudas sobre su rentabilidad inmediata.",
-        "El interés de figuras relevantes contrasta con la toma de posiciones de grandes inversores en competidores como BYD."
-      ],
-      "riesgos": [
-        "Fuerte volatilidad y dudas sobre los tiempos reales de monetización de los taxis autónomos."
-      ],
-      "noticias": [
-        {
-          "titulo": "Tesla Robo-Taxi Expands to Dallas. It Isn’t Enough.",
-          "fuente": "Yahoo",
-          "url": "https://finnhub.io/api/news?id=892b3116a8ad46bf5fbd12ee785218668b2a2a94c44efdcaba77d9c5eeaa88af",
-          "fecha": "2026-11-19T21:07:00Z"
-        },
-        {
-          "titulo": "Michael Burry Adds To Tesla Rival BYD At Five-Year Lows",
-          "fuente": "Yahoo",
-          "url": "https://finnhub.io/api/news?id=d966caca80fd1f875e7b3f4892cc1860d993e47a984b893ef22b0b23d8850c6d",
-          "fecha": "2026-11-19T21:06:31Z"
-        },
-        {
-          "titulo": "Tesla Expands Cybercab To Dallas In First Move Outside Austin",
-          "fuente": "Yahoo",
-          "url": "https://finnhub.io/api/news?id=a1126f422a4eca4488ad9080349ab3346412f12c56c10b2fe36184b8a522ca08",
-          "fecha": "2026-11-19T19:55:17Z"
-        }
-      ]
-    },
-    {
       "simbolo": "MSFT",
       "nombre": "Microsoft",
       "precio": 498.3,
@@ -105,13 +102,19 @@
       "senal": "MANTENER",
       "confianza": 50,
       "razones": [
-        "El precio cayó casi 2% contagiado por el mal día del índice tecnológico.",
-        "El avance de competidores de inteligencia artificial como Claude de Anthropic exige cautela pero sus fundamentos siguen sólidos."
+        "La acción retrocedió junto con el sector tecnológico y el mercado en general.",
+        "La competencia en inteligencia artificial sigue fuerte, sin señales claras a muy corto plazo."
       ],
       "riesgos": [
-        "Mayor competencia en servicios de inteligencia artificial y motores de búsqueda."
+        "Pérdida de cuota de mercado frente a nuevos competidores de IA como Anthropic."
       ],
       "noticias": [
+        {
+          "titulo": "Bridgewater Warns of AI Security Risk as Anthropic Shares Rise in Debut",
+          "fuente": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=86f0f70b3dbbb031578c60d23282f67ec43d96a75a29fe7bcd2b4d1b99d5d3d3",
+          "fecha": "2026-11-19T21:16:00Z"
+        },
         {
           "titulo": "Claude Users Excited to Invest in Anthropic, Says Ann Berry",
           "fuente": "Yahoo",
@@ -128,11 +131,11 @@
       "senal": "MANTENER",
       "confianza": 50,
       "razones": [
-        "El valor cayó más del 3% en medio de una reversión general del mercado a nuevos mínimos.",
-        "Hay señales encontradas entre analistas sobre si es momento de compra o si el ciclo alcista se agotó a corto plazo."
+        "El precio cayó con fuerza en medio de una jornada roja para las grandes tecnológicas.",
+        "A pesar de menciones positivas sobre su futuro, el mercado está en modo de venta generalizada."
       ],
       "riesgos": [
-        "Alta volatilidad del sector semiconductores y arrastre por la debilidad de competidores como AMD."
+        "Alta volatilidad y corrección general en acciones de semiconductores y tecnología."
       ],
       "noticias": [
         {
@@ -163,11 +166,11 @@
       "senal": "MANTENER",
       "confianza": 50,
       "razones": [
-        "La acción corrigió con fuerza (-3.87%) tras el entusiasmo inicial de la salida a bolsa de Anthropic.",
-        "Sigue expandiendo su infraestructura de centros de datos, lo que respalda su negocio en la nube a futuro."
+        "La acción bajó considerablemente hoy por el sentimiento negativo del mercado.",
+        "Hay inversiones en centros de datos, pero la tendencia bajista de corto plazo frena compras inmediatas."
       ],
       "riesgos": [
-        "Continuación de la toma de beneficios y ventas generalizadas en acciones de comercio y nube."
+        "Desaceleración del consumo o mayores costos en infraestructura de la nube."
       ],
       "noticias": [
         {
@@ -192,11 +195,11 @@
       "senal": "MANTENER",
       "confianza": 50,
       "razones": [
-        "La acción retrocedió 3.46% en un día difícil para las grandes empresas tecnológicas.",
-        "La pérdida de valor en su participación de SpaceX genera desconfianza en el corto plazo, aunque la empresa sigue invirtiendo en infraestructura clave."
+        "Experimentó una caída importante hoy acompañando la racha negativa del índice S&P 500.",
+        "Inversiones y ajustes en su portafolio sin un catalizador inmediato para subir en 5 días."
       ],
       "riesgos": [
-        "Ajustes contables por inversiones no cotizadas y competencia creciente en el mercado de inteligencia artificial."
+        "Mayor presión competitiva en búsquedas y tecnologías de inteligencia artificial."
       ],
       "noticias": [
         {
@@ -210,12 +213,6 @@
           "fuente": "Yahoo",
           "url": "https://finnhub.io/api/news?id=17465fe88f66f99ed48f9c5ee7afd564448d171d38996a1f044063ff93b0e4fe",
           "fecha": "2026-11-19T21:28:18Z"
-        },
-        {
-          "titulo": "3 British Lithium Stocks To Watch With Revenue Under $1 Million",
-          "fuente": "Yahoo",
-          "url": "https://finnhub.io/api/news?id=c7ca8b94a187618c80d1cb0d9fca05859e893b540ab513083853355ed572f6f3",
-          "fecha": "2026-11-19T21:11:54Z"
         }
       ]
     },
@@ -227,11 +224,11 @@
       "senal": "MANTENER",
       "confianza": 50,
       "razones": [
-        "Cayó 3.27% alineada con las pérdidas del sector tecnológico.",
-        "La presión de reguladores antimonopolio internacionales se suma a la cautela por sus gastos futuros."
+        "El precio retrocedió hoy en una jornada desfavorable para las acciones tecnológicas de gran capitalización.",
+        "Las valoraciones y nuevos gastos generan dudas en algunos analistas."
       ],
       "riesgos": [
-        "Mayores costos de capital proyectados y procesos regulatorios abiertos en el exterior."
+        "Aumento en costos operativos y escrutinio regulatorio en varios países."
       ],
       "noticias": [
         {
@@ -249,36 +246,33 @@
       ]
     },
     {
-      "simbolo": "EC",
-      "nombre": "Ecopetrol (ADR)",
-      "precio": 13.37,
-      "cambio_pct": -4.98,
+      "simbolo": "TSLA",
+      "nombre": "Tesla",
+      "precio": 374.41,
+      "cambio_pct": -2.43,
       "senal": "MANTENER",
-      "confianza": 35,
+      "confianza": 45,
       "razones": [
-        "No hay noticias corporativas directas en el reporte de hoy.",
-        "La acción sufrió una fuerte caída cercana al 5%, por lo que vender ahora implicaría asumir pérdidas sin claridad de la causa."
+        "La acción bajó hoy siguiendo el comportamiento bajista general del mercado.",
+        "Aunque expande sus servicios de robotaxi, la alta volatilidad histórica y el contexto actual piden prudencia."
       ],
       "riesgos": [
-        "Sensibilidad a la volatilidad internacional del petróleo y al panorama político local."
+        "Acción extremadamente volátil con expectativas muy altas ya incorporadas en el precio."
       ],
-      "noticias": []
-    },
-    {
-      "simbolo": "CIB",
-      "nombre": "Grupo Cibest / Bancolombia (ADR)",
-      "precio": 83.2,
-      "cambio_pct": -2.47,
-      "senal": "MANTENER",
-      "confianza": 35,
-      "razones": [
-        "No se reportaron noticias específicas hoy sobre la entidad.",
-        "El retroceso de 2.47% parece seguir la tendencia negativa general del mercado internacional."
-      ],
-      "riesgos": [
-        "Presión por fluctuaciones en las tasas de interés y en la tasa de cambio peso-dólar."
-      ],
-      "noticias": []
+      "noticias": [
+        {
+          "titulo": "Tesla Robo-Taxi Expands to Dallas. It Isn’t Enough.",
+          "fuente": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=892b3116a8ad46bf5fbd12ee785218668b2a2a94c44efdcaba77d9c5eeaa88af",
+          "fecha": "2026-11-19T21:07:00Z"
+        },
+        {
+          "titulo": "Tesla Expands Cybercab To Dallas In First Move Outside Austin",
+          "fuente": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=a1126f422a4eca4488ad9080349ab3346412f12c56c10b2fe36184b8a522ca08",
+          "fecha": "2026-11-19T19:55:17Z"
+        }
+      ]
     }
   ]
 }

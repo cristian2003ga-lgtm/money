@@ -1,1 +1,81 @@
-{"registros": []}
+{
+  "registros": [
+    {
+      "simbolo": "SPY",
+      "senal": "MANTENER",
+      "confianza": 60,
+      "precio": 715.87,
+      "fecha": "2026-11-19T23:23:33Z"
+    },
+    {
+      "simbolo": "EC",
+      "senal": "MANTENER",
+      "confianza": 50,
+      "precio": 13.37,
+      "fecha": "2026-11-19T23:23:33Z"
+    },
+    {
+      "simbolo": "CIB",
+      "senal": "MANTENER",
+      "confianza": 50,
+      "precio": 83.2,
+      "fecha": "2026-11-19T23:23:33Z"
+    },
+    {
+      "simbolo": "AAPL",
+      "senal": "MANTENER",
+      "confianza": 50,
+      "precio": 349.21,
+      "fecha": "2026-11-19T23:23:33Z"
+    },
+    {
+      "simbolo": "MSFT",
+      "senal": "MANTENER",
+      "confianza": 50,
+      "precio": 498.3,
+      "fecha": "2026-11-19T23:23:33Z"
+    },
+    {
+      "simbolo": "NVDA",
+      "senal": "MANTENER",
+      "confianza": 50,
+      "precio": 145.98,
+      "fecha": "2026-11-19T23:23:33Z"
+    },
+    {
+      "simbolo": "AMZN",
+      "senal": "MANTENER",
+      "confianza": 50,
+      "precio": 257.37,
+      "fecha": "2026-11-19T23:23:33Z"
+    },
+    {
+      "simbolo": "GOOGL",
+      "senal": "MANTENER",
+      "confianza": 50,
+      "precio": 272.66,
+      "fecha": "2026-11-19T23:23:33Z"
+    },
+    {
+      "simbolo": "META",
+      "senal": "MANTENER",
+      "confianza": 50,
+      "precio": 596.22,
+      "fecha": "2026-11-19T23:23:33Z"
+    },
+    {
+      "simbolo": "TSLA",
+      "senal": "MANTENER",
+      "confianza": 45,
+      "precio": 374.41,
+      "fecha": "2026-11-19T23:23:33Z"
+    }
+  ],
+  "estadisticas": {
+    "total": 0,
+    "aciertos": 0,
+    "porcentaje": null,
+    "pendientes": 10,
+    "por_senal": {}
+  }
+}

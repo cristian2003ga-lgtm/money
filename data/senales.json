@@ -1,272 +1,279 @@
 {
-  "actualizado": "2026-11-20T21:03:20Z",
+  "actualizado": "2026-11-21T02:07:42Z",
   "demo": false,
-  "resumen_mercado": "El mercado global vive una fuerte caída generalizada impulsada por una corrección profunda en el sector tecnológico y de inteligencia artificial, sumado a tensiones geopolíticas en Medio Oriente y preocupaciones sobre tasas de interés. Para un inversionista en Colombia con montos pequeños en trii, la recomendación principal es la prudencia y evitar compras impulsivas en medio del pánico.",
+  "resumen_mercado": "El mercado estadounidense sufre una fuerte caída liderada por el sector tecnológico y dudas sobre la rentabilidad de la inteligencia artificial. La investigación de la SEC a Nvidia y tensiones en Medio Oriente aumentan el nerviosismo global. La cautela debe predominar en el corto plazo.",
   "aviso": "Señales generadas por IA a partir de noticias y precios. No son asesoría financiera ni garantizan ganancias. Invierte solo lo que puedas perder.",
   "acciones": [
     {
-      "simbolo": "SPY",
-      "nombre": "ETF S&P 500",
-      "precio": 690.415,
-      "cambio_pct": -3.56,
-      "senal": "MANTENER",
-      "confianza": 65,
+      "simbolo": "NVDA",
+      "nombre": "Nvidia",
+      "precio": 125.53,
+      "cambio_pct": -14.01,
+      "senal": "VENDER",
+      "confianza": 75,
       "razones": [
-        "El ETF general refleja la corrección del mercado estadounidense por temores macroeconómicos e inflación.",
-        "Ante la incertidumbre generalizada y la caída de las bolsas, es mejor esperar y no precipitarse."
+        "Enfrenta una investigación formal de la SEC por presuntas irregularidades contables.",
+        "La salida abrupta de su director ejecutivo y la citación al Senado generan alta incertidumbre."
       ],
       "riesgos": [
-        "Posibilidad de que la corrección continúe si los datos económicos y la tensión geopolítica empeoran."
+        "Rebotes técnicos bruscos tras haber caído 14% en un solo día."
       ],
       "noticias": [
         {
-          "titulo": "The Inflation Math In Five Lines",
+          "titulo": "Prediction: Nvidia Stock Will Do This in the 6 Months After a New CEO Takes Over, According to History",
           "fuente": "Yahoo",
-          "url": "https://finnhub.io/api/news?id=90b58a54db0865bae79e6f008ce9b4b585423131ec23dc8e7ff2ff5c10da4623",
-          "fecha": "2026-11-20T17:31:58Z"
+          "url": "https://finnhub.io/api/news?id=f42b6b0936e5b436cf568eaee0a53500e3ccf3c4459b53880f1ae1ebca984852",
+          "fecha": "2026-11-21T00:02:51Z"
         },
         {
-          "titulo": "Ignore The European Central Bank's AI Warning At Your Peril",
+          "titulo": "NVDA Stock Clocks Worst Week In 18 Years As SEC Reportedly Probes Its Accounting Practices",
+          "fuente": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=fe85428ac252f2f71c02ad6b9d581ebd740aaf7f4f5e9da38c5158286056f3ff",
+          "fecha": "2026-11-20T23:38:12Z"
+        }
+      ]
+    },
+    {
+      "simbolo": "SPY",
+      "nombre": "ETF S&P 500",
+      "precio": 689.81,
+      "cambio_pct": -3.64,
+      "senal": "MANTENER",
+      "confianza": 70,
+      "razones": [
+        "El índice entró en zona de corrección y el indicador de miedo se disparó.",
+        "Para un inversor minorista es prudente conservar la calma y no vender en mínimos temporales."
+      ],
+      "riesgos": [
+        "Posibilidad de que la ola de ventas continúe unos días más antes de encontrar un suelo."
+      ],
+      "noticias": [
+        {
+          "titulo": "Market Selloff Deepens As Investors Seek Shelter",
           "fuente": "SeekingAlpha",
-          "url": "https://finnhub.io/api/news?id=cc5c1b386fb6e901a23c609865329bb760fd48c4ef39dcfea8be7a17ace57c25",
-          "fecha": "2026-11-20T15:30:00Z"
+          "url": "https://finnhub.io/api/news?id=bbbbef72bdef33144b9568030bdb108abafa443920a16b4e292daf4870c92327",
+          "fecha": "2026-11-20T20:30:00Z"
+        },
+        {
+          "titulo": "The Biggest Winners from the Anthropic IPO Could Be Everyday SPY Investors",
+          "fuente": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=8b4bbea0e5f35a78f4342fa3e67e48e9309dcbf40cd74c5a5e4895bf1edff572",
+          "fecha": "2026-11-20T16:02:04Z"
         }
       ]
     },
     {
       "simbolo": "AAPL",
       "nombre": "Apple",
-      "precio": 341.98,
-      "cambio_pct": -2.07,
+      "precio": 342.56,
+      "cambio_pct": -1.9,
       "senal": "MANTENER",
-      "confianza": 60,
+      "confianza": 65,
       "razones": [
-        "Apple avanza en su propio agente de IA, aunque depende inicialmente de modelos de Google.",
-        "A pesar de asegurar suministros de memoria con Samsung, la caída del mercado arrastra el precio."
+        "Mostró mayor resistencia relativa que otros gigantes tecnológicos durante la sesión.",
+        "El mercado duda de las altas valoraciones tecnológicas, por lo que conviene esperar estabilidad."
       ],
       "riesgos": [
-        "Altas valoraciones frente a las ganancias y fuerte competencia en inteligencia artificial."
+        "Contagio de la venta masiva en el sector tecnológico y desaceleración en consumo."
       ],
       "noticias": [
         {
-          "titulo": "Apple “Has No Idea What It’s Doing” in AI. Oh, and It’s Building Its Own AI Agent Too",
+          "titulo": "Apple (AAPL) Grows at 12% and Trades at 37 Times Earnings. Is It Worth It?",
           "fuente": "Yahoo",
-          "url": "https://finnhub.io/api/news?id=32c1a2611f12fba5af8caf9ef9edc004609e4fb53b7ca15db19d284eef3a920e",
-          "fecha": "2026-11-20T18:49:00Z"
+          "url": "https://finnhub.io/api/news?id=2b65ad0d05706854d0e57396615246e01f252c60f34aca03f0cb02f448324194",
+          "fecha": "2026-11-21T01:13:27Z"
         },
         {
-          "titulo": "Micron’s President Says “We Can’t Support Every Customer.” Apple Just Locked In Samsung’s DRAM",
+          "titulo": "Tech sees huge sell-off as Anthropic IPO fails to lift the market",
           "fuente": "Yahoo",
-          "url": "https://finnhub.io/api/news?id=a3644917317e0aa3a6dfd10a2be7592cb725beeb479e36b6234ccb9f8dffb3d1",
-          "fecha": "2026-11-20T18:24:01Z"
+          "url": "https://finnhub.io/api/news?id=09625ee9d3c5e2fb68a7a2811777cb0c53cd129b0e96b5e1e104a9c1941ecb39",
+          "fecha": "2026-11-20T22:19:25Z"
         }
       ]
     },
     {
-      "simbolo": "MSFT",
-      "nombre": "Microsoft",
-      "precio": 482.925,
-      "cambio_pct": -3.09,
+      "simbolo": "GOOGL",
+      "nombre": "Alphabet (Google)",
+      "precio": 265.29,
+      "cambio_pct": -2.7,
       "senal": "MANTENER",
-      "confianza": 55,
+      "confianza": 65,
       "razones": [
-        "El precio cae fuertemente debido a la aversión general al riesgo en el sector tecnológico.",
-        "Las presiones sobre las tasas de interés y los costos de infraestructura en IA generan dudas a corto plazo."
+        "Es señalada como un punto relativamente fuerte frente al colapso de otros líderes de chips.",
+        "El freno temporal a las pruebas de Waymo en autopistas añade cautela adicional."
       ],
       "riesgos": [
-        "Presión continua sobre las valoraciones de las grandes tecnológicas por el aumento de los rendimientos de los bonos."
+        "Continuación de la corrección bajista en el índice tecnológico Nasdaq."
       ],
       "noticias": [
         {
-          "titulo": "How Microsoft’s (MSFT) Valuation Crashed From 75x to 10x – Even as Earnings Kept Growing",
+          "titulo": "Zero To Sixty: Tesla Expands Cybercab To Dallas As Waymo Pauses Freeway Operations This Week",
           "fuente": "Yahoo",
-          "url": "https://finnhub.io/api/news?id=84b60d70d68f71074a55b84bc4737bf49e56a2970236fa7539f0f735ff83cf5d",
-          "fecha": "2026-11-20T18:50:12Z"
+          "url": "https://finnhub.io/api/news?id=3d9ee83e57c90bb559284617899cc7d8692945ccb84539a5eb6a17293e7d9fe5",
+          "fecha": "2026-11-21T00:45:41Z"
         },
         {
-          "titulo": "Microsoft (MSFT) and Its Rivals Are Making a Huge AI Bet – Here’s What Investors Should Know",
+          "titulo": "Stock Market Today, Nov. 20: Stocks Plunge as AI Trade Unwinds",
           "fuente": "Yahoo",
-          "url": "https://finnhub.io/api/news?id=a896ebc7f8153f7b54940a333476d900713d615e00b0bbff91950b67b8b9c3d4",
-          "fecha": "2026-11-20T18:06:40Z"
-        }
-      ]
-    },
-    {
-      "simbolo": "AMZN",
-      "nombre": "Amazon",
-      "precio": 246.39,
-      "cambio_pct": -4.27,
-      "senal": "MANTENER",
-      "confianza": 55,
-      "razones": [
-        "La caída del precio refleja el castigo generalizado a las grandes empresas tecnológicas y de comercio electrónico.",
-        "Las inversiones pesadas en IA siguen generando debate sobre su retorno a corto plazo."
-      ],
-      "riesgos": [
-        "Posibles nuevas regulaciones o impuestos a centros de datos en el extranjero."
-      ],
-      "noticias": [
-        {
-          "titulo": "Trump vows tax on U.S. firms building data centers abroad",
-          "fuente": "Yahoo",
-          "url": "https://finnhub.io/api/news?id=c6b8a2e8e768012994234b248ead6ebf05a84aa3daa1f4cda2bf2b0b631e2f28",
-          "fecha": "2026-11-20T19:04:29Z"
-        },
-        {
-          "titulo": "Amazon (AMZN) and Big Tech Are Spending Heavily on AI – Here’s Why Investors Aren’t Panicking",
-          "fuente": "Yahoo",
-          "url": "https://finnhub.io/api/news?id=25a46416056da092c1fc3c40510aa4d9b918381fcf6cc2d066e400df2e4964dd",
-          "fecha": "2026-11-20T18:02:58Z"
-        }
-      ]
-    },
-    {
-      "simbolo": "META",
-      "nombre": "Meta",
-      "precio": 561.015,
-      "cambio_pct": -5.9,
-      "senal": "MANTENER",
-      "confianza": 55,
-      "razones": [
-        "El precio cae de manera importante en sintonía con el desplome del sector tecnológico y de IA.",
-        "El elevado gasto en infraestructura de inteligencia artificial preocupa a algunos inversionistas."
-      ],
-      "riesgos": [
-        "Altas expectativas de crecimiento ya descontadas en el precio histórico de la acción."
-      ],
-      "noticias": [
-        {
-          "titulo": "Meta (META) Stock Looks Discounted As Its 76% Five Year Run Cools",
-          "fuente": "Yahoo",
-          "url": "https://finnhub.io/api/news?id=31717b756c3171ae58c32b534e7c09cd0860d2dab5c7af84beda01a158b04933",
-          "fecha": "2026-11-20T18:10:51Z"
-        },
-        {
-          "titulo": "Meta’s (META) AI Spending Spree Looks Risky, but There’s More to the Story",
-          "fuente": "Yahoo",
-          "url": "https://finnhub.io/api/news?id=c8fb018667929b7c8b4dfebdd273b23d768f0d0ab8d976ecade930bf0b5076c7",
-          "fecha": "2026-11-20T18:04:36Z"
+          "url": "https://finnhub.io/api/news?id=6db0b5ea38168b31537fe8795759a1dfa1bd385ef3ac42934f57f320fe7e3418",
+          "fecha": "2026-11-20T22:35:13Z"
         }
       ]
     },
     {
       "simbolo": "EC",
       "nombre": "Ecopetrol (ADR)",
-      "precio": 13.35,
-      "cambio_pct": -0.15,
+      "precio": 13.36,
+      "cambio_pct": -0.07,
       "senal": "MANTENER",
-      "confianza": 50,
+      "confianza": 60,
       "razones": [
-        "No hay noticias recientes que afecten directamente a la compañía hoy.",
-        "El precio se mantuvo prácticamente estable a pesar de la caída global."
+        "Presentó sólidos resultados con aumento de ganancias del 86% y márgenes récord en refinación.",
+        "Se mantuvo casi plana frente al desplome general gracias a la tensión petrolera en Medio Oriente."
       ],
       "riesgos": [
-        "Sensibilidad alta al precio del petróleo y factores políticos en Colombia."
-      ],
-      "noticias": []
-    },
-    {
-      "simbolo": "CIB",
-      "nombre": "Grupo Cibest / Bancolombia (ADR)",
-      "precio": 81.58,
-      "cambio_pct": -1.95,
-      "senal": "MANTENER",
-      "confianza": 50,
-      "razones": [
-        "No se reportan noticias específicas para Bancolombia en la jornada.",
-        "El retroceso diario acompaña la tendencia general pero sin catalizadores propios claros."
-      ],
-      "riesgos": [
-        "Fluctuaciones en la tasa de cambio peso-dólar y decisiones del Banco de la República."
-      ],
-      "noticias": []
-    },
-    {
-      "simbolo": "GOOGL",
-      "nombre": "Alphabet (Google)",
-      "precio": 264.945,
-      "cambio_pct": -2.83,
-      "senal": "MANTENER",
-      "confianza": 50,
-      "razones": [
-        "Google enfrenta presión tras reportes de recortes en planes de chips de IA con Broadcom.",
-        "El sentimiento bajista del mercado tecnológico arrastra la cotización del día."
-      ],
-      "riesgos": [
-        "Litigios y acuerdos legales pendientes que pueden afectar la caja de la empresa."
+        "Un empeoramiento del pánico global o caídas repentinas en el crudo pueden frenar su desempeño."
       ],
       "noticias": [
         {
-          "titulo": "Broadcom Stock Plunges 12% and Loses $191 Billion After a Report That Google Cut Its Plans for Broadcom AI Chips",
+          "titulo": "Ecopetrol SA (EC) Q3 2026 Earnings Call Highlights: Record Refining Margins Drive 86% Net ...",
           "fuente": "Yahoo",
-          "url": "https://finnhub.io/api/news?id=3191122192c232872e1fd3aa3a4f6bd0319ec0dbd4aeaaba5797e161e877a761",
-          "fecha": "2026-11-20T19:13:04Z"
+          "url": "https://finnhub.io/api/news?id=e26a392ccc67ce0e799c1d3e86674f67da260e4c746bee14857f9e750a8d8b61",
+          "fecha": "2026-11-20T17:01:42Z"
+        }
+      ]
+    },
+    {
+      "simbolo": "MSFT",
+      "nombre": "Microsoft",
+      "precio": 484.52,
+      "cambio_pct": -2.77,
+      "senal": "MANTENER",
+      "confianza": 60,
+      "razones": [
+        "Grandes fondos la ven como un refugio de calidad dentro del sector tecnológico.",
+        "El pesimismo generalizado por el gasto en IA presiona su precio en el corto plazo."
+      ],
+      "riesgos": [
+        "Dudas del mercado sobre la rentabilidad inmediata de las inversiones en infraestructura de IA."
+      ],
+      "noticias": [
+        {
+          "titulo": "Has AI's honeymoon ended on Wall Street?",
+          "fuente": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=756f37927d322199d5e8977084eeb5e39a3ad9648b693b5264e2ab73fc0323fc",
+          "fecha": "2026-11-21T00:46:04Z"
         },
         {
-          "titulo": "YouTube reportedly nearing $3 billion settlement with US school districts",
+          "titulo": "Mets Owner Steve Cohen’s Fund Dumped Nearly All of Its AMD and Bet $1 Billion That Microsoft Is the Safer AI Stock. AMD Has Fallen 31% Since",
           "fuente": "Yahoo",
-          "url": "https://finnhub.io/api/news?id=7ef40a33d5bb8ae22bcfdc67d958dafc4c580af6bd5c5e2837c7406d58560a4b",
-          "fecha": "2026-11-20T18:34:58Z"
+          "url": "https://finnhub.io/api/news?id=3ed3775304109e922a44a7c0c9b047047affab0885a662640efcd93b5eff7e1c",
+          "fecha": "2026-11-20T23:47:04Z"
+        }
+      ]
+    },
+    {
+      "simbolo": "AMZN",
+      "nombre": "Amazon",
+      "precio": 246.82,
+      "cambio_pct": -4.1,
+      "senal": "MANTENER",
+      "confianza": 60,
+      "razones": [
+        "La fuerte caída del 4% ya absorbió gran parte de las preocupaciones por gasto de capital.",
+        "Conviene no vender en pánico ni apresurarse a comprar mientras persista la liquidación general."
+      ],
+      "riesgos": [
+        "Inversionistas institucionales reduciendo posiciones por dudas sobre los retornos en IA y consumo débil."
+      ],
+      "noticias": [
+        {
+          "titulo": "Stock Market Today, Nov. 20: Amazon Shares Slide on AI and Mega-Cap Tech Sell-Off",
+          "fuente": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=cd1de952f9f27c8a9d378386cbcff3071731ce8e4e43ac0fd59cda79d717b0bf",
+          "fecha": "2026-11-20T22:50:02Z"
+        },
+        {
+          "titulo": "Billionaire Dan Loeb’s “Bear Math”: AI Needs $2-3 Trillion of New Yearly Revenue. He Sold Amazon",
+          "fuente": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=d0a0d35dfda840c12e7ea23775b061c3a623adcc6ae874d56b4097878c46a177",
+          "fecha": "2026-11-20T21:59:08Z"
+        }
+      ]
+    },
+    {
+      "simbolo": "META",
+      "nombre": "Meta",
+      "precio": 560.84,
+      "cambio_pct": -5.93,
+      "senal": "MANTENER",
+      "confianza": 55,
+      "razones": [
+        "Sufrió un castigo severo (-5.9%) por el desarme de posiciones en inteligencia artificial.",
+        "Sus nuevos anuncios de hardware aún no compensan la aversión al riesgo del mercado."
+      ],
+      "riesgos": [
+        "Presión continua sobre empresas con alto gasto de capital sin retorno garantizado a corto plazo."
+      ],
+      "noticias": [
+        {
+          "titulo": "Shots Fired: Meta Will Reportedly Sell a $300 Muse Charm With Free Verizon 5G as Apple Builds Its Agent",
+          "fuente": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=86f208791ec5260330118592ce7b5f2fe19295c50369697cc057dacfd1c817de",
+          "fecha": "2026-11-20T22:00:18Z"
+        },
+        {
+          "titulo": "Billionaire Dan Loeb’s “Bear Math”: AI Needs $2-3 Trillion of New Yearly Revenue. He Sold Amazon",
+          "fuente": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=d0a0d35dfda840c12e7ea23775b061c3a623adcc6ae874d56b4097878c46a177",
+          "fecha": "2026-11-20T21:59:08Z"
         }
       ]
     },
     {
       "simbolo": "TSLA",
       "nombre": "Tesla",
-      "precio": 345.97,
-      "cambio_pct": -7.6,
+      "precio": 345.82,
+      "cambio_pct": -7.64,
       "senal": "MANTENER",
-      "confianza": 45,
+      "confianza": 50,
       "razones": [
-        "Tesla registra una caída fuerte superando el 7% en un día de aversión al riesgo.",
-        "A pesar de anuncios de inversión en manufactura, el mercado ignora las señales alcistas."
+        "Tras caer más del 7%, el precio refleja gran parte del nerviosismo del día.",
+        "Las especulaciones de fusión con SpaceX generan confusión sobre la valoración real."
       ],
       "riesgos": [
-        "Extrema volatilidad y especulación en torno a fusiones y proyectos futuros."
+        "Su extrema volatilidad habitual puede provocar mayores caídas en días consecutivos."
       ],
       "noticias": [
         {
-          "titulo": "$17B Tesla manufacturing plant led October’s construction starts rebound",
+          "titulo": "Should Tesla (TSLA) Investors Watch Its Merger Talks And Cybercab FSD Rollout?",
           "fuente": "Yahoo",
-          "url": "https://finnhub.io/api/news?id=0293b19a174bc9dd73e7660067cc374a47b344c98d66ff68278bd0b7f854bf0c",
-          "fecha": "2026-11-20T19:42:00Z"
+          "url": "https://finnhub.io/api/news?id=0faa28ea19cc61bbb32e4609b7228eb7488c3a6e7c233a4348e22f1f35397068",
+          "fecha": "2026-11-20T21:12:59Z"
         },
         {
-          "titulo": "Tesla Falls 4% Despite HSBC Upgrade and $359 Target Tied to SpaceX Merger Talk; Rivian Drops 5%, Lucid Slides 4%",
+          "titulo": "Tesla Sinks 8%, SpaceX Down 7%, Rivian Down 8% as AI Sell-Off Swamps HSBC Upgrade",
           "fuente": "Yahoo",
-          "url": "https://finnhub.io/api/news?id=dae7e5a60bcff3b16866c80aa940d96a61687168634b2854127af6bc031a16d7",
-          "fecha": "2026-11-20T16:57:39Z"
+          "url": "https://finnhub.io/api/news?id=9022c9aedff53ba94afa939b55b5a374bdea1c9fc9a6087e63908733a9c55377",
+          "fecha": "2026-11-20T20:45:55Z"
         }
       ]
     },
     {
-      "simbolo": "NVDA",
-      "nombre": "Nvidia",
-      "precio": 125.415,
-      "cambio_pct": -14.09,
+      "simbolo": "CIB",
+      "nombre": "Grupo Cibest / Bancolombia (ADR)",
+      "precio": 81.55,
+      "cambio_pct": -1.98,
       "senal": "MANTENER",
       "confianza": 40,
       "razones": [
-        "La acción sufre una caída drástica tras una investigación de la SEC sobre contabilidad.",
-        "La incertidumbre por el liderazgo y la salida de su CEO aumentan la volatilidad."
+        "No cuenta con noticias corporativas recientes para justificar compras o ventas.",
+        "Su caída diaria acompaña la aversión al riesgo internacional."
       ],
       "riesgos": [
-        "Riesgo regulatorio y contable grave que podría deprimir más el precio en el corto plazo."
+        "Sensibilidad a la volatilidad del peso colombiano y a salidas de capital extranjero."
       ],
-      "noticias": [
-        {
-          "titulo": "Trump Calls for Nvidia to Rehire Jensen Huang",
-          "fuente": "Yahoo",
-          "url": "https://finnhub.io/api/news?id=8bf35df9b608e7d1b579ee8d3b971dda191bb5aaba59d5f980e28543c26fd627",
-          "fecha": "2026-11-20T19:52:00Z"
-        },
-        {
-          "titulo": "Nvidia stock extends $2.5 trillion rout as SEC probe reportedly investigates its accounting",
-          "fuente": "Yahoo",
-          "url": "https://finnhub.io/api/news?id=658afeb85fc89c828bdc17aaf2e99a9f54cc87f943de0d13c127aa97cab50c69",
-          "fecha": "2026-11-20T19:42:54Z"
-        }
-      ]
+      "noticias": []
     }
   ]
 }

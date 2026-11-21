@@ -5,77 +5,193 @@
       "senal": "MANTENER",
       "confianza": 60,
       "precio": 715.87,
-      "fecha": "2026-11-19T23:23:33Z"
+      "fecha": "2026-11-19T23:23:33Z",
+      "precio_final": 689.81,
+      "cambio_pct": -3.64,
+      "fecha_evaluacion": "2026-11-21T02:07:42Z",
+      "resultado": "fallo"
     },
     {
       "simbolo": "EC",
       "senal": "MANTENER",
       "confianza": 50,
       "precio": 13.37,
-      "fecha": "2026-11-19T23:23:33Z"
+      "fecha": "2026-11-19T23:23:33Z",
+      "precio_final": 13.36,
+      "cambio_pct": -0.07,
+      "fecha_evaluacion": "2026-11-21T02:07:42Z",
+      "resultado": "acierto"
     },
     {
       "simbolo": "CIB",
       "senal": "MANTENER",
       "confianza": 50,
       "precio": 83.2,
-      "fecha": "2026-11-19T23:23:33Z"
+      "fecha": "2026-11-19T23:23:33Z",
+      "precio_final": 81.55,
+      "cambio_pct": -1.98,
+      "fecha_evaluacion": "2026-11-21T02:07:42Z",
+      "resultado": "fallo"
     },
     {
       "simbolo": "AAPL",
       "senal": "MANTENER",
       "confianza": 50,
       "precio": 349.21,
-      "fecha": "2026-11-19T23:23:33Z"
+      "fecha": "2026-11-19T23:23:33Z",
+      "precio_final": 342.56,
+      "cambio_pct": -1.9,
+      "fecha_evaluacion": "2026-11-21T02:07:42Z",
+      "resultado": "fallo"
     },
     {
       "simbolo": "MSFT",
       "senal": "MANTENER",
       "confianza": 50,
       "precio": 498.3,
-      "fecha": "2026-11-19T23:23:33Z"
+      "fecha": "2026-11-19T23:23:33Z",
+      "precio_final": 484.52,
+      "cambio_pct": -2.77,
+      "fecha_evaluacion": "2026-11-21T02:07:42Z",
+      "resultado": "fallo"
     },
     {
       "simbolo": "NVDA",
       "senal": "MANTENER",
       "confianza": 50,
       "precio": 145.98,
-      "fecha": "2026-11-19T23:23:33Z"
+      "fecha": "2026-11-19T23:23:33Z",
+      "precio_final": 125.53,
+      "cambio_pct": -14.01,
+      "fecha_evaluacion": "2026-11-21T02:07:42Z",
+      "resultado": "fallo"
     },
     {
       "simbolo": "AMZN",
       "senal": "MANTENER",
       "confianza": 50,
       "precio": 257.37,
-      "fecha": "2026-11-19T23:23:33Z"
+      "fecha": "2026-11-19T23:23:33Z",
+      "precio_final": 246.82,
+      "cambio_pct": -4.1,
+      "fecha_evaluacion": "2026-11-21T02:07:42Z",
+      "resultado": "fallo"
     },
     {
       "simbolo": "GOOGL",
       "senal": "MANTENER",
       "confianza": 50,
       "precio": 272.66,
-      "fecha": "2026-11-19T23:23:33Z"
+      "fecha": "2026-11-19T23:23:33Z",
+      "precio_final": 265.29,
+      "cambio_pct": -2.7,
+      "fecha_evaluacion": "2026-11-21T02:07:42Z",
+      "resultado": "fallo"
     },
     {
       "simbolo": "META",
       "senal": "MANTENER",
       "confianza": 50,
       "precio": 596.22,
-      "fecha": "2026-11-19T23:23:33Z"
+      "fecha": "2026-11-19T23:23:33Z",
+      "precio_final": 560.84,
+      "cambio_pct": -5.93,
+      "fecha_evaluacion": "2026-11-21T02:07:42Z",
+      "resultado": "fallo"
     },
     {
       "simbolo": "TSLA",
       "senal": "MANTENER",
       "confianza": 45,
       "precio": 374.41,
-      "fecha": "2026-11-19T23:23:33Z"
+      "fecha": "2026-11-19T23:23:33Z",
+      "precio_final": 345.82,
+      "cambio_pct": -7.64,
+      "fecha_evaluacion": "2026-11-21T02:07:42Z",
+      "resultado": "fallo"
+    },
+    {
+      "simbolo": "NVDA",
+      "senal": "VENDER",
+      "confianza": 75,
+      "precio": 125.53,
+      "fecha": "2026-11-21T02:07:42Z"
+    },
+    {
+      "simbolo": "SPY",
+      "senal": "MANTENER",
+      "confianza": 70,
+      "precio": 689.81,
+      "fecha": "2026-11-21T02:07:42Z"
+    },
+    {
+      "simbolo": "AAPL",
+      "senal": "MANTENER",
+      "confianza": 65,
+      "precio": 342.56,
+      "fecha": "2026-11-21T02:07:42Z"
+    },
+    {
+      "simbolo": "GOOGL",
+      "senal": "MANTENER",
+      "confianza": 65,
+      "precio": 265.29,
+      "fecha": "2026-11-21T02:07:42Z"
+    },
+    {
+      "simbolo": "EC",
+      "senal": "MANTENER",
+      "confianza": 60,
+      "precio": 13.36,
+      "fecha": "2026-11-21T02:07:42Z"
+    },
+    {
+      "simbolo": "MSFT",
+      "senal": "MANTENER",
+      "confianza": 60,
+      "precio": 484.52,
+      "fecha": "2026-11-21T02:07:42Z"
+    },
+    {
+      "simbolo": "AMZN",
+      "senal": "MANTENER",
+      "confianza": 60,
+      "precio": 246.82,
+      "fecha": "2026-11-21T02:07:42Z"
+    },
+    {
+      "simbolo": "META",
+      "senal": "MANTENER",
+      "confianza": 55,
+      "precio": 560.84,
+      "fecha": "2026-11-21T02:07:42Z"
+    },
+    {
+      "simbolo": "TSLA",
+      "senal": "MANTENER",
+      "confianza": 50,
+      "precio": 345.82,
+      "fecha": "2026-11-21T02:07:42Z"
+    },
+    {
+      "simbolo": "CIB",
+      "senal": "MANTENER",
+      "confianza": 40,
+      "precio": 81.55,
+      "fecha": "2026-11-21T02:07:42Z"
     }
   ],
   "estadisticas": {
-    "total": 0,
-    "aciertos": 0,
-    "porcentaje": null,
+    "total": 10,
+    "aciertos": 1,
+    "porcentaje": 10.0,
     "pendientes": 10,
-    "por_senal": {}
+    "por_senal": {
+      "MANTENER": {
+        "total": 10,
+        "aciertos": 1,
+        "porcentaje": 10.0
+      }
+    }
   }
 }

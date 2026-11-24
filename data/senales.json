@@ -1,279 +1,262 @@
 {
-  "actualizado": "2026-11-21T02:07:42Z",
+  "actualizado": "2026-11-24T23:02:05Z",
   "demo": false,
-  "resumen_mercado": "El mercado estadounidense sufre una fuerte caída liderada por el sector tecnológico y dudas sobre la rentabilidad de la inteligencia artificial. La investigación de la SEC a Nvidia y tensiones en Medio Oriente aumentan el nerviosismo global. La cautela debe predominar en el corto plazo.",
+  "resumen_mercado": "El mercado muestra un tono de cautela con leves descensos en los principales índices debido a una corrección en el sector tecnológico. La volatilidad sigue presente tras los recientes vaivenes en empresas de inteligencia artificial y tensiones geopolíticas globales.",
   "aviso": "Señales generadas por IA a partir de noticias y precios. No son asesoría financiera ni garantizan ganancias. Invierte solo lo que puedas perder.",
   "acciones": [
     {
-      "simbolo": "NVDA",
-      "nombre": "Nvidia",
-      "precio": 125.53,
-      "cambio_pct": -14.01,
-      "senal": "VENDER",
-      "confianza": 75,
+      "simbolo": "AAPL",
+      "nombre": "Apple",
+      "precio": 354.07,
+      "cambio_pct": 1.43,
+      "senal": "COMPRAR",
+      "confianza": 60,
       "razones": [
-        "Enfrenta una investigación formal de la SEC por presuntas irregularidades contables.",
-        "La salida abrupta de su director ejecutivo y la citación al Senado generan alta incertidumbre."
+        "Fuerte acumulación por parte de grandes ETFs que tratan la acción como un refugio defensivo en tecnología.",
+        "Buen rendimiento acumulado que respalda la confianza institucional."
       ],
       "riesgos": [
-        "Rebotes técnicos bruscos tras haber caído 14% en un solo día."
+        "Riesgo de una corrección general en el sector tecnológico que arrastre el precio."
       ],
       "noticias": [
         {
-          "titulo": "Prediction: Nvidia Stock Will Do This in the 6 Months After a New CEO Takes Over, According to History",
+          "titulo": "Is Apple (AAPL) Above Fair Value As ETF Buying Returns?",
           "fuente": "Yahoo",
-          "url": "https://finnhub.io/api/news?id=f42b6b0936e5b436cf568eaee0a53500e3ccf3c4459b53880f1ae1ebca984852",
-          "fecha": "2026-11-21T00:02:51Z"
-        },
+          "url": "https://finnhub.io/api/news?id=cd3cee1b8e359c3b17e508db134c9d09ee533d2ddf31ddd2857a94f6d203df79",
+          "fecha": "2026-11-24T21:13:24Z"
+        }
+      ]
+    },
+    {
+      "simbolo": "NVDA",
+      "nombre": "Nvidia",
+      "precio": 155.38,
+      "cambio_pct": -5.86,
+      "senal": "VENDER",
+      "confianza": 65,
+      "razones": [
+        "La acción devuelve parte importante de sus ganancias recientes tras un rally volátil.",
+        "La presión de venta y las dudas sobre la sostenibilidad del rebote en IA generan incertidumbre a corto plazo."
+      ],
+      "riesgos": [
+        "Alta volatilidad que puede generar rebotes rápidos e inesperados."
+      ],
+      "noticias": [
         {
-          "titulo": "NVDA Stock Clocks Worst Week In 18 Years As SEC Reportedly Probes Its Accounting Practices",
+          "titulo": "Stock Market Today, Nov. 24: Nvidia Gives Back $240 Billion in Market Value Despite Wall Street Upgrade Signaling 29% Upside",
           "fuente": "Yahoo",
-          "url": "https://finnhub.io/api/news?id=fe85428ac252f2f71c02ad6b9d581ebd740aaf7f4f5e9da38c5158286056f3ff",
-          "fecha": "2026-11-20T23:38:12Z"
+          "url": "https://finnhub.io/api/news?id=87c01a0d326b808a66c91722566102ccc69b08dc02c0786b32959296397be6b1",
+          "fecha": "2026-11-24T21:49:49Z"
         }
       ]
     },
     {
       "simbolo": "SPY",
       "nombre": "ETF S&P 500",
-      "precio": 689.81,
-      "cambio_pct": -3.64,
-      "senal": "MANTENER",
-      "confianza": 70,
-      "razones": [
-        "El índice entró en zona de corrección y el indicador de miedo se disparó.",
-        "Para un inversor minorista es prudente conservar la calma y no vender en mínimos temporales."
-      ],
-      "riesgos": [
-        "Posibilidad de que la ola de ventas continúe unos días más antes de encontrar un suelo."
-      ],
-      "noticias": [
-        {
-          "titulo": "Market Selloff Deepens As Investors Seek Shelter",
-          "fuente": "SeekingAlpha",
-          "url": "https://finnhub.io/api/news?id=bbbbef72bdef33144b9568030bdb108abafa443920a16b4e292daf4870c92327",
-          "fecha": "2026-11-20T20:30:00Z"
-        },
-        {
-          "titulo": "The Biggest Winners from the Anthropic IPO Could Be Everyday SPY Investors",
-          "fuente": "Yahoo",
-          "url": "https://finnhub.io/api/news?id=8b4bbea0e5f35a78f4342fa3e67e48e9309dcbf40cd74c5a5e4895bf1edff572",
-          "fecha": "2026-11-20T16:02:04Z"
-        }
-      ]
-    },
-    {
-      "simbolo": "AAPL",
-      "nombre": "Apple",
-      "precio": 342.56,
-      "cambio_pct": -1.9,
-      "senal": "MANTENER",
-      "confianza": 65,
-      "razones": [
-        "Mostró mayor resistencia relativa que otros gigantes tecnológicos durante la sesión.",
-        "El mercado duda de las altas valoraciones tecnológicas, por lo que conviene esperar estabilidad."
-      ],
-      "riesgos": [
-        "Contagio de la venta masiva en el sector tecnológico y desaceleración en consumo."
-      ],
-      "noticias": [
-        {
-          "titulo": "Apple (AAPL) Grows at 12% and Trades at 37 Times Earnings. Is It Worth It?",
-          "fuente": "Yahoo",
-          "url": "https://finnhub.io/api/news?id=2b65ad0d05706854d0e57396615246e01f252c60f34aca03f0cb02f448324194",
-          "fecha": "2026-11-21T01:13:27Z"
-        },
-        {
-          "titulo": "Tech sees huge sell-off as Anthropic IPO fails to lift the market",
-          "fuente": "Yahoo",
-          "url": "https://finnhub.io/api/news?id=09625ee9d3c5e2fb68a7a2811777cb0c53cd129b0e96b5e1e104a9c1941ecb39",
-          "fecha": "2026-11-20T22:19:25Z"
-        }
-      ]
-    },
-    {
-      "simbolo": "GOOGL",
-      "nombre": "Alphabet (Google)",
-      "precio": 265.29,
-      "cambio_pct": -2.7,
-      "senal": "MANTENER",
-      "confianza": 65,
-      "razones": [
-        "Es señalada como un punto relativamente fuerte frente al colapso de otros líderes de chips.",
-        "El freno temporal a las pruebas de Waymo en autopistas añade cautela adicional."
-      ],
-      "riesgos": [
-        "Continuación de la corrección bajista en el índice tecnológico Nasdaq."
-      ],
-      "noticias": [
-        {
-          "titulo": "Zero To Sixty: Tesla Expands Cybercab To Dallas As Waymo Pauses Freeway Operations This Week",
-          "fuente": "Yahoo",
-          "url": "https://finnhub.io/api/news?id=3d9ee83e57c90bb559284617899cc7d8692945ccb84539a5eb6a17293e7d9fe5",
-          "fecha": "2026-11-21T00:45:41Z"
-        },
-        {
-          "titulo": "Stock Market Today, Nov. 20: Stocks Plunge as AI Trade Unwinds",
-          "fuente": "Yahoo",
-          "url": "https://finnhub.io/api/news?id=6db0b5ea38168b31537fe8795759a1dfa1bd385ef3ac42934f57f320fe7e3418",
-          "fecha": "2026-11-20T22:35:13Z"
-        }
-      ]
-    },
-    {
-      "simbolo": "EC",
-      "nombre": "Ecopetrol (ADR)",
-      "precio": 13.36,
-      "cambio_pct": -0.07,
+      "precio": 718.78,
+      "cambio_pct": -0.49,
       "senal": "MANTENER",
       "confianza": 60,
       "razones": [
-        "Presentó sólidos resultados con aumento de ganancias del 86% y márgenes récord en refinación.",
-        "Se mantuvo casi plana frente al desplome general gracias a la tensión petrolera en Medio Oriente."
+        "El índice de referencia muestra una ligera baja diaria pero refleja un comportamiento oscilante típico de consolidación.",
+        "Ante la falta de una tendencia definida en Wall Street, lo prudente para un principiante es observar."
       ],
       "riesgos": [
-        "Un empeoramiento del pánico global o caídas repentinas en el crudo pueden frenar su desempeño."
+        "Factores macroeconómicos globales y tensiones geopolíticas que puedan acelerar una toma de ganancias."
       ],
       "noticias": [
         {
-          "titulo": "Ecopetrol SA (EC) Q3 2026 Earnings Call Highlights: Record Refining Margins Drive 86% Net ...",
+          "titulo": "She Retires at 65 With a $900,000 All-Stock 401(k) as the S&P 500 Swings From Its Worst Week to Its Best Day Since April 2025. The 8.6% Drop Erases $77,400, and the Rebound Still Leaves Her $38,409 Short",
           "fuente": "Yahoo",
-          "url": "https://finnhub.io/api/news?id=e26a392ccc67ce0e799c1d3e86674f67da260e4c746bee14857f9e750a8d8b61",
-          "fecha": "2026-11-20T17:01:42Z"
+          "url": "https://finnhub.io/api/news?id=fc80a41206983066e2a8372b8abef179d686b115742ff0ef67f78e4ec74010d0",
+          "fecha": "2026-11-24T21:15:09Z"
         }
       ]
     },
     {
       "simbolo": "MSFT",
       "nombre": "Microsoft",
-      "precio": 484.52,
-      "cambio_pct": -2.77,
+      "precio": 496.13,
+      "cambio_pct": 0.74,
       "senal": "MANTENER",
-      "confianza": 60,
+      "confianza": 55,
       "razones": [
-        "Grandes fondos la ven como un refugio de calidad dentro del sector tecnológico.",
-        "El pesimismo generalizado por el gasto en IA presiona su precio en el corto plazo."
+        "Es considerada una de las formas más seguras de invertir en IA gracias a sus sólidos ingresos operativos.",
+        "El precio se mantiene estable a pesar de la presión bajista general en el sector tecnológico."
       ],
       "riesgos": [
-        "Dudas del mercado sobre la rentabilidad inmediata de las inversiones en infraestructura de IA."
+        "Venta generalizada en el mercado tecnológico que presione temporalmente la acción a la baja."
       ],
       "noticias": [
         {
-          "titulo": "Has AI's honeymoon ended on Wall Street?",
+          "titulo": "Microsoft (MSFT) Is One of the Safest Ways to Own AI",
           "fuente": "Yahoo",
-          "url": "https://finnhub.io/api/news?id=756f37927d322199d5e8977084eeb5e39a3ad9648b693b5264e2ab73fc0323fc",
-          "fecha": "2026-11-21T00:46:04Z"
-        },
+          "url": "https://finnhub.io/api/news?id=9aa1af5cde1f80df15defb23a49c78fd10431b8481290fa3e4da10008fa9a1d0",
+          "fecha": "2026-11-24T21:06:00Z"
+        }
+      ]
+    },
+    {
+      "simbolo": "EC",
+      "nombre": "Ecopetrol (ADR)",
+      "precio": 12.93,
+      "cambio_pct": -3.15,
+      "senal": "MANTENER",
+      "confianza": 50,
+      "razones": [
+        "Ecopetrol registra una caída en la jornada pero se mantiene en un contexto favorable por valoraciones atractivas en el sector.",
+        "Falta catalizadores locales claros a corto plazo para superar la volatilidad del petróleo."
+      ],
+      "riesgos": [
+        "Sensibilidad alta ante fluctuaciones en los precios internacionales del crudo."
+      ],
+      "noticias": [
         {
-          "titulo": "Mets Owner Steve Cohen’s Fund Dumped Nearly All of Its AMD and Bet $1 Billion That Microsoft Is the Safer AI Stock. AMD Has Fallen 31% Since",
+          "titulo": "3 Top Energy Stocks Riding the Integrated Oil & Gas Rally",
           "fuente": "Yahoo",
-          "url": "https://finnhub.io/api/news?id=3ed3775304109e922a44a7c0c9b047047affab0885a662640efcd93b5eff7e1c",
-          "fecha": "2026-11-20T23:47:04Z"
+          "url": "https://finnhub.io/api/news?id=2bb2b26cdc26dba6ec6528de34098cb079d3792e9c6aa2f049b9459021c5d134",
+          "fecha": "2026-11-23T11:11:00Z"
         }
       ]
     },
     {
       "simbolo": "AMZN",
       "nombre": "Amazon",
-      "precio": 246.82,
-      "cambio_pct": -4.1,
-      "senal": "MANTENER",
-      "confianza": 60,
-      "razones": [
-        "La fuerte caída del 4% ya absorbió gran parte de las preocupaciones por gasto de capital.",
-        "Conviene no vender en pánico ni apresurarse a comprar mientras persista la liquidación general."
-      ],
-      "riesgos": [
-        "Inversionistas institucionales reduciendo posiciones por dudas sobre los retornos en IA y consumo débil."
-      ],
-      "noticias": [
-        {
-          "titulo": "Stock Market Today, Nov. 20: Amazon Shares Slide on AI and Mega-Cap Tech Sell-Off",
-          "fuente": "Yahoo",
-          "url": "https://finnhub.io/api/news?id=cd1de952f9f27c8a9d378386cbcff3071731ce8e4e43ac0fd59cda79d717b0bf",
-          "fecha": "2026-11-20T22:50:02Z"
-        },
-        {
-          "titulo": "Billionaire Dan Loeb’s “Bear Math”: AI Needs $2-3 Trillion of New Yearly Revenue. He Sold Amazon",
-          "fuente": "Yahoo",
-          "url": "https://finnhub.io/api/news?id=d0a0d35dfda840c12e7ea23775b061c3a623adcc6ae874d56b4097878c46a177",
-          "fecha": "2026-11-20T21:59:08Z"
-        }
-      ]
-    },
-    {
-      "simbolo": "META",
-      "nombre": "Meta",
-      "precio": 560.84,
-      "cambio_pct": -5.93,
-      "senal": "MANTENER",
-      "confianza": 55,
-      "razones": [
-        "Sufrió un castigo severo (-5.9%) por el desarme de posiciones en inteligencia artificial.",
-        "Sus nuevos anuncios de hardware aún no compensan la aversión al riesgo del mercado."
-      ],
-      "riesgos": [
-        "Presión continua sobre empresas con alto gasto de capital sin retorno garantizado a corto plazo."
-      ],
-      "noticias": [
-        {
-          "titulo": "Shots Fired: Meta Will Reportedly Sell a $300 Muse Charm With Free Verizon 5G as Apple Builds Its Agent",
-          "fuente": "Yahoo",
-          "url": "https://finnhub.io/api/news?id=86f208791ec5260330118592ce7b5f2fe19295c50369697cc057dacfd1c817de",
-          "fecha": "2026-11-20T22:00:18Z"
-        },
-        {
-          "titulo": "Billionaire Dan Loeb’s “Bear Math”: AI Needs $2-3 Trillion of New Yearly Revenue. He Sold Amazon",
-          "fuente": "Yahoo",
-          "url": "https://finnhub.io/api/news?id=d0a0d35dfda840c12e7ea23775b061c3a623adcc6ae874d56b4097878c46a177",
-          "fecha": "2026-11-20T21:59:08Z"
-        }
-      ]
-    },
-    {
-      "simbolo": "TSLA",
-      "nombre": "Tesla",
-      "precio": 345.82,
-      "cambio_pct": -7.64,
+      "precio": 252.29,
+      "cambio_pct": -1.21,
       "senal": "MANTENER",
       "confianza": 50,
       "razones": [
-        "Tras caer más del 7%, el precio refleja gran parte del nerviosismo del día.",
-        "Las especulaciones de fusión con SpaceX generan confusión sobre la valoración real."
+        "La compañía sigue integrando tecnología de IA para sus chips y servicios en la nube.",
+        "El precio baja levemente en la sesión acompañando la tendencia del mercado."
       ],
       "riesgos": [
-        "Su extrema volatilidad habitual puede provocar mayores caídas en días consecutivos."
+        "Competencia intensa en el sector de la nube y consumo."
       ],
       "noticias": [
         {
-          "titulo": "Should Tesla (TSLA) Investors Watch Its Merger Talks And Cybercab FSD Rollout?",
+          "titulo": "Is Amazon.com (AMZN) Still Below Fair Value As AI Spending Rises?",
           "fuente": "Yahoo",
-          "url": "https://finnhub.io/api/news?id=0faa28ea19cc61bbb32e4609b7228eb7488c3a6e7c233a4348e22f1f35397068",
-          "fecha": "2026-11-20T21:12:59Z"
+          "url": "https://finnhub.io/api/news?id=d6e2157b68c74a377deacee1d612d5d9aed87a1c665b490811763e829fbddf16",
+          "fecha": "2026-11-24T20:10:44Z"
+        }
+      ]
+    },
+    {
+      "simbolo": "GOOGL",
+      "nombre": "Alphabet (Google)",
+      "precio": 279.05,
+      "cambio_pct": -1.08,
+      "senal": "MANTENER",
+      "confianza": 50,
+      "razones": [
+        "Sin noticias corporativas de gran peso específico para el corto plazo.",
+        "Comportamiento alineado con la corrección moderada del sector."
+      ],
+      "riesgos": [
+        "Presión regulatoria y competencia en el negocio de motores de búsqueda y nube."
+      ],
+      "noticias": [
+        {
+          "titulo": "Microsoft (MSFT) Is One of the Safest Ways to Own AI",
+          "fuente": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=9aa1af5cde1f80df15defb23a49c78fd10431b8481290fa3e4da10008fa9a1d0",
+          "fecha": "2026-11-24T21:06:00Z"
         },
         {
-          "titulo": "Tesla Sinks 8%, SpaceX Down 7%, Rivian Down 8% as AI Sell-Off Swamps HSBC Upgrade",
+          "titulo": "Intuit vs. Palo Alto Networks: Which Technology Stock Is a Better Buy for 2027?",
           "fuente": "Yahoo",
-          "url": "https://finnhub.io/api/news?id=9022c9aedff53ba94afa939b55b5a374bdea1c9fc9a6087e63908733a9c55377",
-          "fecha": "2026-11-20T20:45:55Z"
+          "url": "https://finnhub.io/api/news?id=03777831029ca31c6ed286695ceaf38dd7b2a863cdc80524c1f7da432bcf15bb",
+          "fecha": "2026-11-24T19:20:02Z"
+        },
+        {
+          "titulo": "Billionaire David Abrams’ Top 5 Stock Picks for 2027",
+          "fuente": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=12f4afc27513113fd49cd70fe231cf728b05e25bb853d119eb24653895899492",
+          "fecha": "2026-11-24T19:07:03Z"
         }
       ]
     },
     {
       "simbolo": "CIB",
       "nombre": "Grupo Cibest / Bancolombia (ADR)",
-      "precio": 81.55,
-      "cambio_pct": -1.98,
+      "precio": 82.17,
+      "cambio_pct": -2.36,
+      "senal": "MANTENER",
+      "confianza": 45,
+      "razones": [
+        "El banco muestra retroceso en su precio en línea con el movimiento del mercado.",
+        "No hay noticias corporativas recientes de alto impacto que justifiquen un cambio drástico."
+      ],
+      "riesgos": [
+        "Exposición a la tasa de cambio local y decisiones del Banco de la República."
+      ],
+      "noticias": [
+        {
+          "titulo": "Our Top 10 High Growth Dividend Stocks - November 2026",
+          "fuente": "SeekingAlpha",
+          "url": "https://finnhub.io/api/news?id=78a501d4609e761375d64d79a3a3f21f3673dd3bf35bfd726fcf5575d12c491b",
+          "fecha": "2026-11-22T08:20:00Z"
+        }
+      ]
+    },
+    {
+      "simbolo": "META",
+      "nombre": "Meta",
+      "precio": 589.82,
+      "cambio_pct": -1.3,
+      "senal": "MANTENER",
+      "confianza": 45,
+      "razones": [
+        "Recortes recientes en precios objetivo por parte de analistas generan dudas.",
+        "Las nuevas herramientas de IA enfrentan escrutinio regulatorio en Europa."
+      ],
+      "riesgos": [
+        "Mayor regulación sobre el uso de agentes de IA y privacidad."
+      ],
+      "noticias": [
+        {
+          "titulo": "Could Meta Actually Climb 30%? Or Is J.P. Morgan Totally Wrong?",
+          "fuente": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=7df3519a4d00fefb4facd0391b28944f097b41bba2ed575d66f485928e3fc8f5",
+          "fecha": "2026-11-24T21:15:57Z"
+        },
+        {
+          "titulo": "AI Regulation Could Put BILL Stock In Focus",
+          "fuente": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=c59f576369b7d71e69d9cc68070865ecdab144a4938f117e6f0a2439f2753883",
+          "fecha": "2026-11-24T21:11:52Z"
+        }
+      ]
+    },
+    {
+      "simbolo": "TSLA",
+      "nombre": "Tesla",
+      "precio": 384.68,
+      "cambio_pct": -0.2,
       "senal": "MANTENER",
       "confianza": 40,
       "razones": [
-        "No cuenta con noticias corporativas recientes para justificar compras o ventas.",
-        "Su caída diaria acompaña la aversión al riesgo internacional."
+        "Se discute una potencial fusión con SpaceX, lo cual genera especulación entre los inversionistas.",
+        "La acción mantiene alta volatilidad característica sin una dirección clara a 1-5 días."
       ],
       "riesgos": [
-        "Sensibilidad a la volatilidad del peso colombiano y a salidas de capital extranjero."
+        "Incertudumbre sobre los términos y la aprobación de posibles acuerdos corporativos complejos."
       ],
-      "noticias": []
+      "noticias": [
+        {
+          "titulo": "Tesla and SpaceX Just Assembled Deal Teams for a $3.2 Trillion Merger. Here's What Investors Need to Know.",
+          "fuente": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=84cab5d56e33ccf2917566fc40ded4f22140bdec50a467c2541d8a6b5baa3be0",
+          "fecha": "2026-11-24T20:59:55Z"
+        },
+        {
+          "titulo": "Tesla and SpaceX Name Five Directors for a Potential $3.5 Trillion Merger. Tesla Holders Still Get a Vote",
+          "fuente": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=567174fe482ef0a65ad6e4adf1a60ba37624dbf1703a1126df27da911954df3a",
+          "fecha": "2026-11-24T20:05:33Z"
+        }
+      ]
     }
   ]
 }

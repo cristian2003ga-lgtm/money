@@ -289,13 +289,34 @@
       "confianza": 40,
       "precio": 384.68,
       "fecha": "2026-11-24T23:02:05Z"
+    },
+    {
+      "simbolo": "EC",
+      "senal": "COMPRAR",
+      "confianza": 65,
+      "precio": 13.33,
+      "fecha": "2026-11-25T22:30:23Z"
+    },
+    {
+      "simbolo": "META",
+      "senal": "COMPRAR",
+      "confianza": 60,
+      "precio": 609.89,
+      "fecha": "2026-11-25T22:30:23Z"
+    },
+    {
+      "simbolo": "AAPL",
+      "senal": "MANTENER",
+      "confianza": 55,
+      "precio": 355.58,
+      "fecha": "2026-11-25T22:30:23Z"
     }
   ],
   "estadisticas": {
     "total": 20,
     "aciertos": 2,
     "porcentaje": 10.0,
-    "pendientes": 10,
+    "pendientes": 13,
     "por_senal": {
       "MANTENER": {
         "total": 19,

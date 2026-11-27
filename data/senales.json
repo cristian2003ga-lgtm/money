@@ -1,234 +1,270 @@
 {
-  "actualizado": "2026-11-26T22:21:57Z",
+  "actualizado": "2026-11-27T21:56:17Z",
   "demo": false,
-  "resumen_mercado": "El mercado muestra un optimismo moderado tras un dato de crecimiento económico fuerte en EE. UU., pero persisten tensiones tecnológicas y geopolíticas que generan cautela.",
+  "resumen_mercado": "El mercado muestra un buen ánimo tras el Black Friday con alzas impulsadas por el consumo y la tecnología. Sin embargo, persisten tensiones geopolíticas y dudas sobre los altos costos en infraestructura de inteligencia artificial.",
   "aviso": "Señales generadas por IA a partir de noticias y precios. No son asesoría financiera ni garantizan ganancias. Invierte solo lo que puedas perder.",
   "acciones": [
     {
-      "simbolo": "AAPL",
-      "nombre": "Apple",
-      "precio": 355.58,
-      "cambio_pct": 0.43,
+      "simbolo": "SPY",
+      "nombre": "ETF S&P 500",
+      "precio": 728.32,
+      "cambio_pct": 1.62,
+      "senal": "COMPRAR",
+      "confianza": 75,
+      "razones": [
+        "El mercado general muestra un fuerte repunte tras el Black Friday.",
+        "Buen cierre de semana para los principales índices bursátiles."
+      ],
+      "riesgos": [
+        "Riesgos macroeconómicos globales como tensiones geopolíticas y petróleo."
+      ],
+      "noticias": [
+        {
+          "titulo": "Stock Market Today: Markets Off to a Strong Black Friday Start",
+          "fuente": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=5b1c67c57bf857b213429b4149e45abe6fa1a35440baf83821650461d5d1e4d0",
+          "fecha": "2026-11-27T15:03:13Z"
+        },
+        {
+          "titulo": "Pre-Markets Up Ahead of Shortened Trading Session",
+          "fuente": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=a4097e73b39547900fc525f59d343e26948fa740ad63129eb3344da62a9db01c",
+          "fecha": "2026-11-27T14:14:00Z"
+        }
+      ]
+    },
+    {
+      "simbolo": "TSLA",
+      "nombre": "Tesla",
+      "precio": 400,
+      "cambio_pct": 5.22,
       "senal": "COMPRAR",
       "confianza": 70,
       "razones": [
-        "Los inversionistas prefieren la inteligencia artificial basada en dispositivos frente a la nube.",
-        "Nuevas alianzas y ofertas comerciales apoyan la demanda de iPhones."
+        "Cierra su mejor semana en 18 meses con un fuerte incremento de precio.",
+        "Avanza en planes de expansión y adquisición de tecnología."
       ],
       "riesgos": [
-        "Aumento en los costos de memoria para los equipos."
+        "Es una acción históricamente muy volátil con correcciones rápidas."
       ],
       "noticias": [
         {
-          "titulo": "Apple Stocks Rise as AI Selloff Spares the iPhone Maker",
+          "titulo": "TSLA Stock Clocks Best Week In 18 Months: Tesla Reportedly Eyes Buying German Toolmaker Amid Cybercab, Optimus Scaling Plans",
           "fuente": "Yahoo",
-          "url": "https://finnhub.io/api/news?id=5f56e36170ac823f2feb83953186054df99533505ad98d17320111190a71ec4d",
-          "fecha": "2026-11-26T19:00:38Z"
+          "url": "https://finnhub.io/api/news?id=ca84633dd52240b00db7b72a75d92570875cda4eec12ac7da9ffc80aa5298d64",
+          "fecha": "2026-11-27T19:55:54Z"
         },
         {
-          "titulo": "Can VZ's New Apple Deals and Loyalty Benefits Drive Subscriber Growth?",
+          "titulo": "Stock Market Today: Indexes Log Best Thanksgiving Week In 18 Years",
           "fuente": "Yahoo",
-          "url": "https://finnhub.io/api/news?id=59cfad9c0c780a8bf9be55f442088bd6535f9ab92a929129aab18428c3a9b0d9",
-          "fecha": "2026-11-26T15:26:00Z"
-        }
-      ]
-    },
-    {
-      "simbolo": "META",
-      "nombre": "Meta",
-      "precio": 609.89,
-      "cambio_pct": 3.4,
-      "senal": "COMPRAR",
-      "confianza": 65,
-      "razones": [
-        "La acción subió hoy con fuerza impulsada por posibles acuerdos comerciales con Amazon.",
-        "Gran interés de los grandes fondos de inversión en el trimestre previo."
-      ],
-      "riesgos": [
-        "Presiones regulatorias y restricciones automatizadas de contenido en otros países."
-      ],
-      "noticias": [
-        {
-          "titulo": "George Soros and 64 Other Big Funds Bought Meta Last Quarter. David Tepper and 33 Others Sold. Who’s Right?",
-          "fuente": "Yahoo",
-          "url": "https://finnhub.io/api/news?id=48fd7128b41611d3fe45f172b0f78398950cd83d69902c7a23304639355b954a",
-          "fecha": "2026-11-26T18:09:59Z"
-        },
-        {
-          "titulo": "Meta Platforms Stocks Jump 3.4% on Reported Amazon Talks Over Muse AI Agent",
-          "fuente": "Yahoo",
-          "url": "https://finnhub.io/api/news?id=92dcd4f311276b9ab64e230891d2349b979f28bf82f5ef216e1a9689b3d58cf4",
-          "fecha": "2026-11-26T17:23:38Z"
-        }
-      ]
-    },
-    {
-      "simbolo": "NVDA",
-      "nombre": "Nvidia",
-      "precio": 149.3,
-      "cambio_pct": -3.91,
-      "senal": "VENDER",
-      "confianza": 60,
-      "razones": [
-        "Fuerte caída en el precio de la acción en la jornada de hoy (-3.9%).",
-        "Preocupaciones por la suspensión temporal de envíos de servidores a algunos países."
-      ],
-      "riesgos": [
-        "Nuevos controles de exportación de EE. UU. que afecten las ventas."
-      ],
-      "noticias": [
-        {
-          "titulo": "Nvidia halts server shipments to 4 countries just weeks after Jensen Huang’s affair with alleged spy was exposed",
-          "fuente": "Yahoo",
-          "url": "https://finnhub.io/api/news?id=e1f06da1ffe569934d843268e20768ce169b3c229d7b2ee1649963d3933403ef",
-          "fecha": "2026-11-26T20:30:14Z"
-        }
-      ]
-    },
-    {
-      "simbolo": "GOOGL",
-      "nombre": "Alphabet (Google)",
-      "precio": 273.1,
-      "cambio_pct": -2.13,
-      "senal": "VENDER",
-      "confianza": 60,
-      "razones": [
-        "El precio bajó hoy ante reportes de un alto consumo de efectivo por inversiones en IA.",
-        "Aumento en el costo de los seguros contra impago (swaps de crédito)."
-      ],
-      "riesgos": [
-        "Presión por los elevados costos operativos en inteligencia artificial."
-      ],
-      "noticias": [
-        {
-          "titulo": "Alphabet Stocks Slip 2.13% as Credit Swaps Hit Record Amid $9.1 Billion Cash Burn",
-          "fuente": "Yahoo",
-          "url": "https://finnhub.io/api/news?id=ae9e88ef1e837fac6a58973cd527b3b26ddb55424cb9fd5cbcd7dce5990d0ae3",
-          "fecha": "2026-11-26T18:26:01Z"
-        }
-      ]
-    },
-    {
-      "simbolo": "SPY",
-      "nombre": "ETF S&P 500",
-      "precio": 716.7,
-      "cambio_pct": -0.29,
-      "senal": "MANTENER",
-      "confianza": 65,
-      "razones": [
-        "El mercado muestra resultados mixtos y una ligera caída hoy.",
-        "Los datos de crecimiento económico son buenos, pero generan dudas sobre futuras bajas de tasas de interés."
-      ],
-      "riesgos": [
-        "Alta concentración del índice en pocas empresas tecnológicas y nuevas tarifas comerciales."
-      ],
-      "noticias": [
-        {
-          "titulo": "The Economy Grew Way Faster Than First Reported: Q3 GDP Revised Up to 4.3%",
-          "fuente": "Yahoo",
-          "url": "https://finnhub.io/api/news?id=c4079b41499c39a3562eff34451594219699874c9557af1a537f97c58861c560",
-          "fecha": "2026-11-26T15:28:09Z"
-        }
-      ]
-    },
-    {
-      "simbolo": "MSFT",
-      "nombre": "Microsoft",
-      "precio": 489.93,
-      "cambio_pct": -1.25,
-      "senal": "MANTENER",
-      "confianza": 55,
-      "razones": [
-        "El precio bajó levemente hoy en medio de una corrección tecnológica general.",
-        "La empresa apuesta por modelos de IA más económicos y eficientes."
-      ],
-      "riesgos": [
-        "Gasto elevado en infraestructura tecnológica."
-      ],
-      "noticias": [
-        {
-          "titulo": "Microsoft Stocks Slip 1.25% While Nadella Backs Cheaper In-House AI Models",
-          "fuente": "Yahoo",
-          "url": "https://finnhub.io/api/news?id=e6d3ea468072bf6cb0abed0b2a209365fc14e7487155446eaea0b7b925954986",
-          "fecha": "2026-11-26T18:42:00Z"
+          "url": "https://finnhub.io/api/news?id=126cc66e9d953c9bb16d9401242ac8190d5d0bd2982e39f54e833a14a4715a66",
+          "fecha": "2026-11-27T19:19:22Z"
         }
       ]
     },
     {
       "simbolo": "AMZN",
       "nombre": "Amazon",
-      "precio": 244.43,
-      "cambio_pct": -3.12,
-      "senal": "MANTENER",
-      "confianza": 55,
+      "precio": 254.12,
+      "cambio_pct": 3.96,
+      "senal": "COMPRAR",
+      "confianza": 65,
       "razones": [
-        "El precio cayó hoy más de 3% siguiendo la tendencia bajista del sector tecnológico.",
-        "Altas expectativas de ventas para la temporada de ofertas de fin de año."
+        "Fuertes ventas en línea durante Acción de Gracias impulsan el optimismo.",
+        "AWS muestra alta rentabilidad a pesar de las grandes inversiones."
       ],
       "riesgos": [
-        "Altos niveles de gasto en proyectos futuros y consumo moderado."
+        "Gastos de capital muy elevados que preocupan a algunos inversionistas."
       ],
       "noticias": [
         {
-          "titulo": "Amazon , Walmart Battle for $124 Billion Holiday Shopping Market",
+          "titulo": "Amazon’s AWS Profit Rose 55%. Can It Absorb a $220 Billion Capex Bill?",
           "fuente": "Yahoo",
-          "url": "https://finnhub.io/api/news?id=3ea120b290fc80da0f0f390a823af30d72d74ab863931ae67158f7f30a1ad388",
-          "fecha": "2026-11-26T17:52:23Z"
+          "url": "https://finnhub.io/api/news?id=67220fba4fdf78ca107db2fd963b605d7d1d72851bf5de1d0ac28c5cfa22c77e",
+          "fecha": "2026-11-27T19:18:59Z"
+        },
+        {
+          "titulo": "Amazon Stocks Climb 2.96% as Thanksgiving Online Spending Hits $7.1 Billion",
+          "fuente": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=874e6051410d724886c815fd1c0fdb6b4cbe8bbb5d334d4bed15e7d0e222b358",
+          "fecha": "2026-11-27T19:09:08Z"
+        }
+      ]
+    },
+    {
+      "simbolo": "META",
+      "nombre": "Meta",
+      "precio": 628.96,
+      "cambio_pct": 3.13,
+      "senal": "COMPRAR",
+      "confianza": 65,
+      "razones": [
+        "El uso de herramientas de IA para compras navideñas atrae buen impulso.",
+        "Buen desempeño en la sesión con un alza superior al 3%."
+      ],
+      "riesgos": [
+        "Riesgos regulatorios estrictos sobre IA en Europa y Australia."
+      ],
+      "noticias": [
+        {
+          "titulo": "Don't have time to shop Black Friday? AI will do it for you",
+          "fuente": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=d9916236f0f3c255d8ae29d8f0c317ca7691690e33eea4891cff4ec337716931",
+          "fecha": "2026-11-27T19:18:03Z"
+        },
+        {
+          "titulo": "What Is Meta Platforms (META) Up Against With Australia And EU AI Rules?",
+          "fuente": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=b037b9e29cbf5524ff7543f693b7884973d6912b2a0db4b8d19d7eaf03b4242f",
+          "fecha": "2026-11-27T17:11:48Z"
+        }
+      ]
+    },
+    {
+      "simbolo": "AAPL",
+      "nombre": "Apple",
+      "precio": 358.54,
+      "cambio_pct": 0.83,
+      "senal": "MANTENER",
+      "confianza": 60,
+      "razones": [
+        "Se beneficia de ser vista como un refugio frente al comercio de IA.",
+        "Enfrenta nueva competencia en dispositivos inteligentes."
+      ],
+      "riesgos": [
+        "La presión general sobre el sector tecnológico este mes."
+      ],
+      "noticias": [
+        {
+          "titulo": "New $799 smart glasses challenge Apple, but with a major catch",
+          "fuente": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=df3420d27b98f5d43714b8aae10b4aad058833a88850c06784ee14ab7c50ec45",
+          "fecha": "2026-11-27T17:17:00Z"
+        },
+        {
+          "titulo": "Apple Stock Isn’t Just an Anti-AI Haven. It’s an All-Purpose Winner.",
+          "fuente": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=82a2afb0830760585c89b97c5dd6a62b95fb7e4ac487ad399956bbc6a3265a4b",
+          "fecha": "2026-11-27T15:18:00Z"
+        }
+      ]
+    },
+    {
+      "simbolo": "NVDA",
+      "nombre": "Nvidia",
+      "precio": 150.49,
+      "cambio_pct": 0.8,
+      "senal": "MANTENER",
+      "confianza": 60,
+      "razones": [
+        "El mercado tecnológico repunta tras una semana positiva.",
+        "Próxima audiencia del CEO Jensen Huang en el Congreso genera expectativa."
+      ],
+      "riesgos": [
+        "Alta volatilidad ante posibles regulaciones o cambios en la demanda de IA."
+      ],
+      "noticias": [
+        {
+          "titulo": "Should You Buy Nvidia Stock Before CEO Jensen Huang Testifies in Front of Congress on Dec. 1 and Dec. 3?",
+          "fuente": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=6485c9afc0ccda7c8349157b048306d43cc7dfa4db44f087308da73de51263b5",
+          "fecha": "2026-11-27T19:48:09Z"
+        },
+        {
+          "titulo": "Stock Market Today: Indexes Log Best Thanksgiving Week In 18 Years",
+          "fuente": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=126cc66e9d953c9bb16d9401242ac8190d5d0bd2982e39f54e833a14a4715a66",
+          "fecha": "2026-11-27T19:19:22Z"
+        }
+      ]
+    },
+    {
+      "simbolo": "MSFT",
+      "nombre": "Microsoft",
+      "precio": 492.85,
+      "cambio_pct": 0.6,
+      "senal": "MANTENER",
+      "confianza": 55,
+      "razones": [
+        "Superó una interrupción global de servicios mejorando su confiabilidad.",
+        "Se ve afectada indirectamente por preocupaciones sobre la nube y ciberseguridad."
+      ],
+      "riesgos": [
+        "Vulnerabilidades en plataformas de nube y altos gastos de capital."
+      ],
+      "noticias": [
+        {
+          "titulo": "Microsoft Stocks Rise 0.26% as Code Red Targets One-Hour Outage Recovery",
+          "fuente": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=b01b1b43c7fc14689e5ddc05cc999caaff5b4b4626020bab18fff3a3bd53b140",
+          "fecha": "2026-11-27T18:23:20Z"
+        },
+        {
+          "titulo": "What Does Alphabet (GOOGL) Need To Prove After The Air Force Cloud Breach?",
+          "fuente": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=09420bdb8738b20d8df31ee16ba375a402049e78b854c752e3203a8091b3651f",
+          "fecha": "2026-11-27T18:10:25Z"
         }
       ]
     },
     {
       "simbolo": "EC",
       "nombre": "Ecopetrol (ADR)",
-      "precio": 13.33,
-      "cambio_pct": 3.09,
+      "precio": 13.48,
+      "cambio_pct": 1.13,
       "senal": "MANTENER",
       "confianza": 50,
       "razones": [
-        "El precio subió hoy con fuerza gracias al sector petrolero.",
-        "No hay noticias directas recientes de la empresa en Colombia."
+        "No hay noticias recientes que afecten directamente a la compañía.",
+        "Se mantiene estable a pesar de la volatilidad general."
       ],
       "riesgos": [
-        "Alta volatilidad en los precios internacionales del petróleo."
+        "Sensibilidad alta al precio internacional del petróleo y la política local."
       ],
       "noticias": []
     },
     {
       "simbolo": "CIB",
       "nombre": "Grupo Cibest / Bancolombia (ADR)",
-      "precio": 82.68,
-      "cambio_pct": 0.62,
+      "precio": 84.69,
+      "cambio_pct": 2.43,
       "senal": "MANTENER",
       "confianza": 50,
       "razones": [
-        "Comportamiento estable en la jornada de hoy.",
-        "Sin noticias corporativas recientes que justifiquen un cambio de postura."
+        "El precio subió levemente hoy sin noticias directas.",
+        "Ausencia de catalizadores fuertes para un movimiento a corto plazo."
       ],
       "riesgos": [
-        "Cambios en las tasas de interés locales en Colombia."
+        "Dependencia de las tasas de interés en Colombia y la tasa de cambio."
       ],
       "noticias": []
     },
     {
-      "simbolo": "TSLA",
-      "nombre": "Tesla",
-      "precio": 380.14,
-      "cambio_pct": -1.18,
+      "simbolo": "GOOGL",
+      "nombre": "Alphabet (Google)",
+      "precio": 274.96,
+      "cambio_pct": 0.68,
       "senal": "MANTENER",
       "confianza": 50,
       "razones": [
-        "El precio bajó ligeramente tras la postergación de votaciones sobre conducción autónoma en la UE.",
-        "La acción mantiene alta volatilidad propia de su sector."
+        "El repunte tecnológico ayuda, pero enfrenta dudas por altos gastos en IA.",
+        "Involucrada en el incidente de seguridad en la nube del gobierno."
       ],
       "riesgos": [
-        "Retrasos regulatorios para la aprobación de su tecnología de conducción autónoma."
+        "Presión en el flujo de caja libre por inversiones masivas."
       ],
       "noticias": [
         {
-          "titulo": "Tesla Stocks Slip 1.18% as EU Delays Self-Driving Vote to December 15",
+          "titulo": "Alphabet Stocks Move Lower as Record Credit Spreads Shadow AI Spending",
           "fuente": "Yahoo",
-          "url": "https://finnhub.io/api/news?id=33e94637ee57050ed7351c4c5d29f4846041bfb6dd6edc3c6bcc0557f653e1d9",
-          "fecha": "2026-11-26T19:03:57Z"
+          "url": "https://finnhub.io/api/news?id=c4f248232a08a6eeada46dedfc8efb6cc06860300056a0f6da493d69ad558f9f",
+          "fecha": "2026-11-27T19:18:39Z"
+        },
+        {
+          "titulo": "What Does Alphabet (GOOGL) Need To Prove After The Air Force Cloud Breach?",
+          "fuente": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=09420bdb8738b20d8df31ee16ba375a402049e78b854c752e3203a8091b3651f",
+          "fecha": "2026-11-27T18:10:25Z"
         }
       ]
     }
